@@ -1,0 +1,16 @@
+@font-face {
+    font-family: custom;
+    src: url("./static/5th_Edition_Font_Clones_CC/Scaly Sans Caps.otf");
+}
+
+body {
+    font-family: custom;
+}
+
+p span {
+    font-weight: bold;
+}
+
+.spell-type {
+    font-style: italic;
+}
