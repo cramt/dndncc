@@ -1,0 +1,40 @@
+- name: acid splash
+  spell_level: 0
+  school: conjuration
+  casting_time: 1 action
+  range: 60 feet
+  components: V, S
+  duration: Instantaneous
+  body: You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage.
+  higher_levels: This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
+- name: absorb elements
+  spell_level: 1
+  school: abjuration
+  casting_time: 1 reaction, which you take when you take acid, cold, fire, lightning, or thunder damage
+  range: self
+  components: S
+  duration: 1 round
+  body: The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra 1d6 damage of the triggering type, and the spell ends.
+  higher_levels: When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each slot level above 1st.
+- name: aganazzar's scorcher
+  spell_level: 2
+  school: evocation
+  casting_time: 1 action
+  range: 30 feet
+  components: V, S, M (a red dragon's scale)
+  duration: Instantaneous
+  body: A line of roaring flame 30 feet long and 5 feet wide emanates from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 3d8 fire damage on a failed save, or half as much damage on a successful one.
+  higher_levels: When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.
+- name: animate dead
+  spell_level: 3
+  school: necromancy
+  casting_time: 1 minute
+  range: 10 feet
+  components: V, S, M (a drop of blood, a piece of flesh, and a pinch of bone dust)
+  duration: Instantaneous
+  body: |1
+    This spell creates an undead servant. Choose a pile of bones or a corpse of a Medium or Small humanoid within range. Your spell imbues the target with a foul mimicry of life, raising it as an undead creature. The target becomes a skeleton if you chose bones or a zombie if you chose a corpse (the DM has the creature’s game statistics).
+    On each of your turns, you can use a bonus action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.
+    The creature is under your control for 24 hours, after which it stops obeying any command you’ve given it. To maintain the control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell, rather than animating a new one.
+
+  higher_levels: When you cast this spell using a spell slot of 4th level or higher, you animate or reassert control over two additional undead creatures for each slot level above 3rd. Each of the creatures must come from a different corpse or pile of bones.

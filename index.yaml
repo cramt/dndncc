@@ -1,0 +1,6 @@
+name: Niebs Critical Collection
+classes:
+  - wizard.yaml
+spells: spells.yaml
+static: static
+style: style.css
