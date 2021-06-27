@@ -1,4 +1,4 @@
-name: Deploy to Build Branch
+name: Deploy to Github Pages Branch
 on:
   push:	
     branches:	
@@ -6,19 +6,16 @@ on:
 
 jobs:
   deploy:
-    name: Deploy to Build Branch
+    name: Deploy to Github Pages Branch
     runs-on: ubuntu-latest    
     steps:
-     steps:
-      - uses: actions/checkout@v2
-      - uses: actions-rs/toolchain@v1
-        with:
-          toolchain: stable
-      - run: |
-          cargo install dnd_wiki
-          dnd_wiki
-      
-
+    - uses: actions/checkout@main
+    - uses: actions-rs/toolchain@v1
+      with:
+        toolchain: stable
+    - run: |
+        cargo install dnd_wiki
+        dnd_wiki
     - name: Deploy
       uses: s0/git-publish-subdir-action@develop
       env:
