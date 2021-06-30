@@ -1,16 +1,30 @@
 @font-face {
-    font-family: custom;
-    src: url("./static/5th_Edition_Font_Clones_CC/Scaly Sans Caps.otf");
+    font-family: modesto;
+    src: url("./static/5th_Edition_Font_Clones_CC/Nodesto Caps Condensed Bold.otf");
 }
 
-body {
-    font-family: custom;
+@font-face {
+    font-family: bookmania;
+    src: url("./static/5th_Edition_Font_Clones_CC/Bookinsanity.otf")
+}
+
+@font-face {
+    font-family: bookmania-bold;
+    src: url("./static/5th_Edition_Font_Clones_CC/Bookinsanity Bold.otf")
+}
+h1, h2 h3, h4, h5, h6 {
+    font-family: modesto;
+}
+
+p {
+    font-family: bookmania;
 }
 
 p span {
-    font-weight: bold;
+    font-family: bookmania-bold;
 }
 
-.spell-type {
+.multi-class-req {
     font-style: italic;
+    color: grey;
 }

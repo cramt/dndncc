@@ -1,0 +1,9 @@
+name: assassin
+flavour_text: |1
+  You focus your training on the grim art of death. Those who adhere to this archetype are diverse: hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity. Stealth, poison, and disguise help you eliminate your foes with deadly efficiency.
+
+features:
+  - name: Bonus Proficiencies
+    level: 3
+    body: |1
+      When you choose this archetype at 3rd level, you gain proficiency with the disguise kit and the poisoner's kit.

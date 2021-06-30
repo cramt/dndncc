@@ -33,7 +33,21 @@ equipment:
     - arcane focus
   - - scholar's pack
     - explorer's pack
-  - spellbook
+  - - spellbook
+subclasses:
+  name: roguish archetype
+  level: 3
+  prefix: |1
+    When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of the following schools:
+
+  postfix: Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.
+  entries:
+    - rogue_subclasses/assassin.yaml
+  features:
+    - 2
+    - 6
+    - 10
+    - 14
 features:
   - name: Spellcasting
     body: As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power.

@@ -1,6 +1,8 @@
 name: Niebs Critical Collection
 classes:
+  - rogue.yaml
   - wizard.yaml
 spells: spells.yaml
 static: static
 style: style.css
+schools: schools.yaml

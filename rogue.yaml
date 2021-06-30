@@ -1,7 +1,11 @@
 name: rogue
 type: class
 caster_type: none
-flavour_text:  Wizards are supreme magic-users, defined and united as a class by the spells they cast. Drawing on the subtle weave of magic that permeates the cosmos, wizards cast spells of explosive fire, arcing lightning, subtle deception, brute-force mind control, and much more.
+class_resources:
+  Sneak Attack:
+    formula: ceil(level/2)
+    postfix: d6
+flavour_text: Rogues rely on skill, stealth, and their foes' vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem, demonstrating a resourcefulness and versatility that is the cornerstone of any successful adventuring party.
 multi_class_requirements:
   dex: 13
 hit_die: 8
@@ -36,9 +40,22 @@ equipment:
     - shortsword
   - - shortbow and quiver of 20 arrows
     - shortsword
-  - - scholar's pack
+  - - burglar's pack
+    - dungeoneer's pack
     - explorer's pack
-  - spellbook
+  - - Leather armor, two daggers, and thieves' tools
+subclasses:
+  name: roguish archetype
+  level: 3
+  prefix: 'At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities:'
+  postfix: Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.
+  entries:
+    - rogue_subclasses/assassin.yaml
+  features:
+    - 3
+    - 9
+    - 13
+    - 17
 features:
   - name: Spellcasting
     body: As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power.
