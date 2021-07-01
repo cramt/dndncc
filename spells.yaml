@@ -68,6 +68,7 @@
     each slot level above 2nd.
 - name: alarm
   spell_level: 1
+  ritual: true
   casting_time: 1 Min.
   duration: 8 hours
   school: abjuration
@@ -126,6 +127,7 @@
     above 1st.
 - name: animal messenger
   spell_level: 2
+  ritual: true
   casting_time: Action
   duration: 24 hours
   school: enchantment
@@ -460,6 +462,7 @@
     their own way back to their bodies, usually by dropping to 0 hit points.
 - name: augury
   spell_level: 2
+  ritual: true
   casting_time: 1 Min.
   duration: Instantaneous
   school: divination
@@ -626,6 +629,7 @@
     within 5 feet of you that you can see.
 - name: beast sense
   spell_level: 2
+  ritual: true
   casting_time: Action
   duration: Concentration, up to 1 hour
   school: divination
@@ -1011,6 +1015,7 @@
     target them.
 - name: ceremony
   spell_level: 1
+  ritual: true
   casting_time: 1 Hr.
   duration: Instantaneous
   school: abjuration
@@ -1287,6 +1292,7 @@
     target them.
 - name: commune
   spell_level: 5
+  ritual: true
   casting_time: 1 Min.
   duration: 1 minute
   school: divination
@@ -1304,6 +1310,7 @@
     the first that you get no answer. The DM makes this roll in secret.
 - name: commune with nature
   spell_level: 5
+  ritual: true
   casting_time: 1 Min.
   duration: Instantaneous
   school: divination
@@ -1341,6 +1348,7 @@
     turn more than 30 feet away from the target.
 - name: comprehend languages
   spell_level: 1
+  ritual: true
   casting_time: Action
   duration: 1 hour
   school: divination
@@ -1573,6 +1581,7 @@
     as many with an 8th-level slot."
 - name: contact other plane
   spell_level: 5
+  ritual: true
   casting_time: 1 Min.
   duration: 1 minute
   school: divination
@@ -2205,6 +2214,7 @@
     inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.
 - name: detect magic
   spell_level: 1
+  ritual: true
   casting_time: Action
   duration: Concentration, up to 10 minutes
   school: divination
@@ -2218,6 +2228,7 @@
     lead, or 3 feet of wood or dirt.
 - name: detect poison and disease
   spell_level: 1
+  ritual: true
   casting_time: Action
   duration: Concentration, up to 10 minutes
   school: divination
@@ -2397,6 +2408,7 @@
     each slot level above 1st.
 - name: divination
   spell_level: 4
+  ritual: true
   casting_time: Action
   duration: Instantaneous
   school: divination
@@ -2544,6 +2556,7 @@
     2nd.
 - name: drawmij's instant summons
   spell_level: 6
+  ritual: true
   casting_time: 1 Min.
   duration: Until dispelled
   school: conjuration
@@ -3182,6 +3195,7 @@
     heal, or wish.
 - name: feign death
   spell_level: 3
+  ritual: true
   casting_time: Action
   duration: 1 hour
   school: necromancy
@@ -3198,6 +3212,7 @@
     effect until the spell ends.
 - name: find familiar
   spell_level: 1
+  ritual: true
   casting_time: 1 Hr.
   duration: Instantaneous
   school: conjuration
@@ -3507,6 +3522,7 @@
     slot level above 1st.
 - name: forbiddance
   spell_level: 6
+  ritual: true
   casting_time: 10 Min.
   duration: 1 day
   school: abjuration
@@ -3708,6 +3724,7 @@
     spells mentioned above.
 - name: gentle repose
   spell_level: 2
+  ritual: true
   casting_time: Action
   duration: 10 days
   school: necromancy
@@ -4475,6 +4492,7 @@
     level above 4th.
 - name: identify
   spell_level: 1
+  ritual: true
   casting_time: 1 Min.
   duration: Instantaneous
   school: divination
@@ -4517,6 +4535,7 @@
     on saving throws against its breath."
 - name: illusory script
   spell_level: 1
+  ritual: true
   casting_time: 1 Min.
   duration: 10 days
   school: illusion
@@ -4946,6 +4965,7 @@
     and the larger chest is on the Ethereal Plane, it is irretrievably lost.
 - name: leomund's tiny hut
   spell_level: 3
+  ritual: true
   casting_time: 1 Min.
   duration: 8 hours
   school: evocation
@@ -5069,6 +5089,7 @@
     (3d8), and 17th level (4d8).
 - name: locate animals or plants
   spell_level: 2
+  ritual: true
   casting_time: Action
   duration: Instantaneous
   school: divination
@@ -5255,6 +5276,7 @@
     above 1st.
 - name: magic mouth
   spell_level: 2
+  ritual: true
   casting_time: 1 Min.
   duration: Until dispelled
   school: illusion
@@ -5484,6 +5506,7 @@
     occupied, in the nearest unoccupied space.
 - name: meld into stone
   spell_level: 3
+  ritual: true
   casting_time: Action
   duration: 8 hours
   school: transmutation
@@ -6174,6 +6197,7 @@
     4th.
 - name: phantom steed
   spell_level: 3
+  ritual: true
   casting_time: 1 Min.
   duration: 1 hour
   school: illusion
@@ -6669,6 +6693,7 @@
     pushed increases by 5 feet for each slot level above 3rd.
 - name: purify food and drink
   spell_level: 1
+  ritual: true
   casting_time: Action
   duration: Instantaneous
   school: transmutation
@@ -6716,6 +6741,7 @@
     long rest, the penalty is reduced by 1 until it disappears.
 - name: rary's telepathic bond
   spell_level: 5
+  ritual: true
   casting_time: Action
   duration: 1 hour
   school: divination
@@ -7283,6 +7309,7 @@
     go away when the spell ends.
 - name: silence
   spell_level: 2
+  ritual: true
   casting_time: Action
   duration: Concentration, up to 10 minutes
   school: illusion
@@ -7355,6 +7382,7 @@
     such as Expertise, that doubles its proficiency bonus.
 - name: skywrite
   spell_level: 2
+  ritual: true
   casting_time: Action
   duration: Concentration, up to 1 hour
   school: transmutation
@@ -7498,6 +7526,7 @@
     stable. This spell has no effect on undead or constructs.
 - name: speak with animals
   spell_level: 1
+  ritual: true
   casting_time: Action
   duration: 10 minutes
   school: divination
@@ -8391,6 +8420,7 @@
     level above 5th. All targets must be within 30 feet of each other.
 - name: tenser's floating disk
   spell_level: 1
+  ritual: true
   casting_time: Action
   duration: 1 hour
   school: conjuration
@@ -8802,6 +8832,7 @@
     that moves out of the area falls to the ground.
 - name: unseen servant
   spell_level: 1
+  ritual: true
   casting_time: Action
   duration: 1 hour
   school: conjuration
@@ -9075,6 +9106,7 @@
     attacks pass in or out of the wind.
 - name: water breathing
   spell_level: 3
+  ritual: true
   casting_time: Action
   duration: 24 hours
   school: transmutation
@@ -9085,6 +9117,7 @@
     retain their normal mode of respiration.
 - name: water walk
   spell_level: 3
+  ritual: true
   casting_time: Action
   duration: 1 hour
   school: transmutation
@@ -9358,6 +9391,7 @@
     spell.
 - name: wristpocket
   spell_level: 2
+  ritual: true
   casting_time: Action
   duration: Concentration, up to 1 hour
   school: conjuration
@@ -9399,3 +9433,68 @@
     questions to which it would normally respond with a lie. Such creatures can
     be evasive in its answers as long as it remains within the boundaries of the
     truth.
+- name: blood lance (Guild)
+  spell_level: 0
+  casting_time: Action
+  duration: Instantaneous
+  school: pure sangromancy
+  range: 60 feet
+  components: V, S
+  body: A shard of blood streaks toward a creature within range that you can see. Make a ranged spell attack against the target. On a hit, the target takes 1d8 piercing damage. After having rolled your attack, but before knowing if the attack hit or not, you can use 1 blood point to increase the damage die to 1d12.
+  higher_levels: The spell’s damage increase by 1d8 whenever you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8). Using a blood point changes all damage dice to d12s.
+- name: calling card (GH)
+  spell_level: 0
+  casting_time: Action
+  duration: Until dispelled
+  school: illusion
+  range: Touch
+  components: S, M (a stamp carved like the mark left by your calling card)
+  body: You touch a corpse and mark it with a magical mark. You can choose to make it a visible mark that appears as a rune or word written on the flesh, or you can choose to make it an invisible mark. Creatures who specifically examine a corpse for a calling card automatically detect one, whether visible or invisible.
+- name: corrosive blade (Homebrew)
+  spell_level: 0
+  casting_time: Action
+  duration: 1 round
+  school: evocation
+  range: Self (5-foot radius)
+  components: S, M (a melee weapon worth at least 1 sp)
+  body: You brandish the weapon used in the spell’s casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack’s normal effects, and acid that lasts until the beginning of your next turn seeps from your weapon onto the target creature. The creature can use its action to remove the acid from itself, ending the spell. If the creature does not remove the acid, it takes acid damage equal to your spellcasting ability modifier at the end of its turn and the spell ends.
+  higher_levels: At 5th level, the melee attack deals an extra 1d6 acid damage to the target on a hit, and the additional damage the target takes when not removing the acid increasess to 1d4 + your spellcasting ability modifier. Both damage rolls increase by 1d6 and 1d4 respectively at 11th level (2d6 and 2d4) and 17th level (3d6 and 3d4).
+- name: frozen blade (Homebrew)
+  spell_level: 0
+  casting_time: Action
+  duration: 1 round
+  school: evocation
+  range: Self (5-foot radius)
+  components: S, M (a melee weapon worth at least 1 sp)
+  body: You brandish the weapon used in the spell’s casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack’s normal effects, and the creature's speed is reduced by 10 feet until the beginning of your next turn. Creatures that have resistance or immunity to cold damage are immune to the slowing effect of this spell.
+  higher_levels: At 5th level, the melee attack deals an extra 1d8 cold damage to the target on a hit. The damage roll increases by 1d8 at 11th level (2d8) and 17th level (3d8).
+- name: holy word (GH)
+  spell_level: 0
+  casting_time: Action
+  duration: Instantaneous
+  school: evocation
+  range: 60 feet
+  components: V, S
+  body: You mutter a word of the divine under your breath, being careful not to speak it any louder, for such celestial power is not for the tainted and unworthy. Make a ranged spell attack against the target. On a hit, the target takes 1d8 radiant damage. If you hit an undead, fiend, or fey, then its speed is reduced by 10 feet and it can not take reactions until the end of its next turn.
+  higher_levels: This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17thlevel (4d8).
+- name: hunter sense (GH)
+  spell_level: 0
+  casting_time: Action
+  duration: Concentration, up to 1 minute.
+  school: divination
+  range: Touch
+  components: V, S
+  body: You touch one willing creature. While this spell is active, the target’s senses are heightened. If the target rolls a 9 or below on the die when making a Wisdom (Perception) check, they instead act as if they rolled a 10.
+- name: illusory instrument (GH)
+  spell_level: 0
+  casting_time: Action
+  duration: 10 minutes
+  school: illusion
+  range: 5 feet
+  components: V, S
+  body: "You create an illusionary copy of a mundane musical instrument. The copy of the instrument takes on the shape of your fondest memory of the instrument, such as the first flute you owned, or the half harp gifted to you by a loved one. This illusion moves as its physical counterpart would, but it is weightless and is tangible only to the caster of the spell. This instrument may be used as a spellcasting focus. This illusory instrument dissipates if the spellcaster moves 10 feet away from it or chooses to end the spell. 
+  As a bonus action, you can command your instrument to create one of the following effects:
+  • Mimic basic sounds heard on a daily basis, such as a bird chirping, footsteps, or a slamming door.
+  • Automatically play a basic beat at the tempo of your choice.
+  • Record anything played on it, and play it back on a loop.
+  • Record and play back any noise that it could pick up within 15 feet, such as conversation, a royal decree, or a snoring party member who swears that they don’t."
