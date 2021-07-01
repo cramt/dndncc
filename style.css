@@ -12,6 +12,17 @@
     font-family: bookmania-bold;
     src: url("./static/5th_Edition_Font_Clones_CC/Bookinsanity Bold.otf")
 }
+
+@font-face {
+    font-family: bookmania-italic;
+    src: url("./static/5th_Edition_Font_Clones_CC/Bookinsanity Italic.otf.otf")
+}
+
+@font-face {
+    font-family: bookmania-bold-italic;
+    src: url("./static/5th_Edition_Font_Clones_CC/Bookinsanity Bold Italic.otf")
+}
+
 h1, h2 h3, h4, h5, h6 {
     font-family: modesto;
 }
@@ -43,12 +54,16 @@ h1, h2 h3, h4, h5, h6 {
     text-align: center;
 }
 
-p {
-    font-family: bookmania;
+.bold  {
+    font-family: bookmania-bold;
 }
 
-p span {
-    font-family: bookmania-bold;
+.italic {
+    font-family: bookmania-italic;
+}
+
+.bold.italic {
+    font-family: bookmania-bold-italic;
 }
 
 .multi-class-req {
@@ -59,7 +74,8 @@ p span {
 body {
     margin: 0;
     background-color: #1a1a1a;
-    color: #dedede
+    color: #dedede;
+    font-family: bookmania;
 }
 
 a {
