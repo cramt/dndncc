@@ -1,6 +1,6 @@
 - name: abi-dalzim's horrid wilting
   spell_level: 8
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: necromancy
   range: 150 feet
@@ -14,7 +14,7 @@
     trees and shrubs, wither and die instantly.
 - name: absorb elements
   spell_level: 1
-  casting_time: Reaction
+  casting_time: 1 reaction, which you take when you take acid, cold, fire, lightning, or thunder damage
   duration: 1 round
   school: abjuration
   range: Self
@@ -29,7 +29,7 @@
     above 1st.
 - name: acid splash
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: conjuration
   range: 60 feet
@@ -41,7 +41,7 @@
     (2d6), 11th level (3d6), and 17th level (4d6).
 - name: aganazzar's scorcher
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 30 feet
@@ -55,7 +55,7 @@
     2nd.
 - name: aid
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: 8 hours
   school: abjuration
   range: 30 feet
@@ -85,7 +85,7 @@
     feet.
 - name: alter self
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: transmutation
   range: Self
@@ -112,7 +112,7 @@
     attack and damage rolls you make using it.
 - name: animal friendship
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: 24 hours
   school: enchantment
   range: 30 feet
@@ -128,7 +128,7 @@
 - name: animal messenger
   spell_level: 2
   ritual: true
-  casting_time: Action
+  casting_time: 1 action
   duration: 24 hours
   school: enchantment
   range: 30 feet
@@ -152,7 +152,7 @@
     each slot level above 2nd.
 - name: animal shapes
   spell_level: 8
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 24 hours
   school: transmutation
   range: 30 feet
@@ -206,7 +206,7 @@
     come from a different corpse or pile of bones.
 - name: animate objects
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: transmutation
   range: 120 feet
@@ -247,7 +247,7 @@
     level above 5th.
 - name: antilife shell
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: abjuration
   range: Self (10-foot radius)
@@ -261,7 +261,7 @@
     pass through the barrier, the spell ends.
 - name: antimagic field
   spell_level: 8
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: abjuration
   range: Self (10-foot radius)
@@ -344,7 +344,7 @@
     which time it can be affected again.
 - name: arcane eye
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: divination
   range: 30 feet
@@ -358,7 +358,7 @@
     but the eye can pass through an opening as small as 1 inch in diameter.
 - name: arcane gate
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: conjuration
   range: 500 feet
@@ -378,7 +378,7 @@
     as a bonus action so that the active side faces in a different direction.
 - name: arcane lock
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Until dispelled
   school: abjuration
   range: Touch
@@ -394,7 +394,7 @@
     increases by 10.
 - name: armor of agathys
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: abjuration
   range: Self
@@ -408,7 +408,7 @@
     increase by 5 for each slot level above 1st.
 - name: arms of hadar
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: conjuration
   range: Self (10-foot radius)
@@ -483,7 +483,7 @@
     random reading. The DM makes this roll in secret.
 - name: aura of life
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: abjuration
   range: Self (30-foot radius)
@@ -496,7 +496,7 @@
     the aura with 0 hit points.
 - name: aura of purity
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: abjuration
   range: Self (30-foot radius)
@@ -509,7 +509,7 @@
     deafened, frightened, paralyzed, poisoned, and stunned."
 - name: aura of vitality
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: evocation
   range: Self (30-foot radius)
@@ -539,7 +539,7 @@
     you treated it while it was charmed.
 - name: bane
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: enchantment
   range: 30 feet
@@ -554,7 +554,7 @@
     level above 1st.
 - name: banishing smite
   spell_level: 5
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 minute
   school: abjuration
   range: Self
@@ -571,7 +571,7 @@
     that space is occupied.
 - name: banishment
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: abjuration
   range: 60 feet
@@ -593,7 +593,7 @@
     level above 4th.
 - name: barkskin
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: transmutation
   range: Touch
@@ -603,7 +603,7 @@
     regardless of what kind of armor it is wearing.
 - name: beacon of hope
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: abjuration
   range: 30 feet
@@ -614,7 +614,7 @@
     possible from any healing.
 - name: beast bond
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: divination
   range: Touch
@@ -630,7 +630,7 @@
 - name: beast sense
   spell_level: 2
   ritual: true
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: divination
   range: Touch
@@ -643,7 +643,7 @@
     your own surroundings.
 - name: bestow curse
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: necromancy
   range: Touch
@@ -669,7 +669,7 @@
     concentration.
 - name: bigby's hand
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: evocation
   range: 120 feet
@@ -711,7 +711,7 @@
     level above 5th.
 - name: blade barrier
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: evocation
   range: 90 feet
@@ -727,7 +727,7 @@
     a successful save, the creature takes half as much damage.
 - name: blade ward
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 round
   school: abjuration
   range: Self
@@ -737,7 +737,7 @@
     and slashing damage dealt by weapon attacks.
 - name: blade of disaster
   spell_level: 9
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 minute
   school: conjuration
   range: 60 feet
@@ -755,7 +755,7 @@
     including a wall of force.
 - name: bless
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: enchantment
   range: 30 feet
@@ -769,7 +769,7 @@
     level above 1st.
 - name: blight
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: necromancy
   range: 30 feet
@@ -787,7 +787,7 @@
     4th.
 - name: blinding smite
   spell_level: 3
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 minute
   school: evocation
   range: Self
@@ -800,7 +800,7 @@
     the end of each of its turns. On a successful save, it is no longer blinded.
 - name: blindness/deafness
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 minute
   school: necromancy
   range: 30 feet
@@ -815,7 +815,7 @@
     level above 2nd.
 - name: blink
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 minute
   school: transmutation
   range: Self
@@ -836,7 +836,7 @@
     unless they have the ability to do so.
 - name: blur
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: illusion
   range: Self
@@ -847,7 +847,7 @@
     blindsight, or can see through illusions, as with truesight.
 - name: bones of the earth
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: transmutation
   range: 120 feet
@@ -874,7 +874,7 @@
     level above 6th.
 - name: booming blade
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 round
   school: evocation
   range: Self (5-foot radius)
@@ -891,7 +891,7 @@
     at 17th level (3d8 and 4d8).
 - name: branding smite
   spell_level: 2
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 minute
   school: evocation
   range: Self
@@ -906,7 +906,7 @@
     above 2nd.
 - name: burning hands
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: Self (15-foot cone)
@@ -922,7 +922,7 @@
     1st.
 - name: call lightning
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: conjuration
   range: 120 feet
@@ -946,7 +946,7 @@
     3rd.
 - name: calm emotions
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: enchantment
   range: 60 feet
@@ -965,7 +965,7 @@
     DM rules otherwise.
 - name: catapult
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: transmutation
   range: 60 feet
@@ -983,7 +983,7 @@
     slot level above 1st.
 - name: catnap
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: 10 minutes
   school: enchantment
   range: 30 feet
@@ -999,7 +999,7 @@
     slot level above 3rd.
 - name: cause fear
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: necromancy
   range: 60 feet
@@ -1041,7 +1041,7 @@
     each other. A creature can benefit from this rite again only if widowed.
 - name: chain lightning
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 150 feet
@@ -1059,7 +1059,7 @@
     another target for each slot level above 6th.
 - name: chaos bolt
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 120 feet
@@ -1079,7 +1079,7 @@
     for each slot level above 1st.
 - name: charm monster
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: enchantment
   range: 30 feet
@@ -1096,7 +1096,7 @@
     target them.
 - name: charm person
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: enchantment
   range: 30 feet
@@ -1113,7 +1113,7 @@
     target them.
 - name: chill touch
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 round
   school: necromancy
   range: 120 feet
@@ -1128,7 +1128,7 @@
     11th level (3d8), and 17th level (4d8).
 - name: chromatic orb
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 90 feet
@@ -1143,7 +1143,7 @@
     1st.
 - name: circle of death
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: necromancy
   range: 150 feet
@@ -1157,7 +1157,7 @@
     6th.
 - name: circle of power
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: abjuration
   range: Self (30-foot radius)
@@ -1212,7 +1212,7 @@
     thereafter be restored to life, since the creature's soul is elsewhere.
 - name: cloud of daggers
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: conjuration
   range: 60 feet
@@ -1226,7 +1226,7 @@
     2nd.
 - name: cloudkill
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: conjuration
   range: 120 feet
@@ -1247,7 +1247,7 @@
     5th.
 - name: color spray
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 round
   school: illusion
   range: Self (15-foot cone)
@@ -1266,7 +1266,7 @@
     2nd level or higher, roll an additional 2d10 for each slot level above 1st.
 - name: command
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 round
   school: enchantment
   range: 60 feet
@@ -1330,7 +1330,7 @@
     any nearby towns.
 - name: compelled duel
   spell_level: 1
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 minute
   school: enchantment
   range: 30 feet
@@ -1349,7 +1349,7 @@
 - name: comprehend languages
   spell_level: 1
   ritual: true
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: divination
   range: Self
@@ -1362,7 +1362,7 @@
     part of a written language.
 - name: compulsion
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: enchantment
   range: 30 feet
@@ -1380,7 +1380,7 @@
     the designated direction.
 - name: cone of cold
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: Self (60-foot cone)
@@ -1394,7 +1394,7 @@
     5th.
 - name: confusion
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: enchantment
   range: 90 feet
@@ -1419,7 +1419,7 @@
     slot level above 4th.
 - name: conjure animals
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: conjuration
   range: 60 feet
@@ -1442,7 +1442,7 @@
     many with a 7th-level slot, and four times as many with a 9th-level slot."
 - name: conjure barrage
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: conjuration
   range: Self (60-foot cone)
@@ -1545,7 +1545,7 @@
     as many with an 8th-level slot."
 - name: conjure volley
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: conjuration
   range: 150 feet
@@ -1559,7 +1559,7 @@
     damage type is the same as that of the ammunition or weapon.
 - name: conjure woodland beings
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: conjuration
   range: 60 feet
@@ -1602,7 +1602,7 @@
     phrase as an answer.
 - name: contagion
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: 7 days
   school: necromancy
   range: Touch
@@ -1655,7 +1655,7 @@
     material component is ever not on your person.
 - name: continual flame
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Until dispelled
   school: evocation
   range: Touch
@@ -1666,7 +1666,7 @@
     not smothered or quenched.
 - name: control flames
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous or 1 hour (see below)
   school: transmutation
   range: 60 feet
@@ -1684,7 +1684,7 @@
     time, and you can dismiss such an effect as an action.
 - name: control water
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: transmutation
   range: 300 feet
@@ -1752,7 +1752,7 @@
     coldWindStageCondition1Calm2Moderate wind3Strong wind4Gale5Storm
 - name: control winds
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: transmutation
   range: 300 feet
@@ -1780,7 +1780,7 @@
     normal."
 - name: cordon of arrows
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: 8 hours
   school: transmutation
   range: 5 feet
@@ -1799,7 +1799,7 @@
     by two for each slot level above 2nd.
 - name: counterspell
   spell_level: 3
-  casting_time: Reaction
+  casting_time: 1 reaction, which you take when you see a creature within 60 feet of you casting a spell
   duration: Instantaneous
   school: abjuration
   range: 60 feet
@@ -1814,7 +1814,7 @@
     less than or equal to the level of the spell slot you used.
 - name: create bonfire
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: conjuration
   range: 60 feet
@@ -1829,7 +1829,7 @@
     level (2d8), 11th level (3d8), and 17th level (4d8).
 - name: create food and water
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: conjuration
   range: 30 feet
@@ -1914,7 +1914,7 @@
     ghouls, three ghasts or wights, or two mummies.
 - name: create or destroy water
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: transmutation
   range: 30 feet
@@ -1953,7 +1953,7 @@
     5th.
 - name: crown of madness
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: enchantment
   range: 120 feet
@@ -1970,7 +1970,7 @@
     at the end of each of its turns. On a success, the spell ends.
 - name: crown of stars
   spell_level: 7
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: evocation
   range: Self
@@ -1988,7 +1988,7 @@
     slot level above 7th.
 - name: crusader's mantle
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: evocation
   range: Self (30-foot radius)
@@ -2000,7 +2000,7 @@
     weapon attack.
 - name: cure wounds
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: Touch
@@ -2013,7 +2013,7 @@
     1st.
 - name: dancing lights
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: evocation
   range: 120 feet
@@ -2028,7 +2028,7 @@
     exceeds the spell's range.
 - name: danse macabre
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: necromancy
   range: 60 feet
@@ -2053,7 +2053,7 @@
     level above 5th.
 - name: dark star
   spell_level: 8
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: evocation
   range: 150 feet
@@ -2076,7 +2076,7 @@
     to a pile of fine gray dust.
 - name: darkness
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: evocation
   range: 60 feet
@@ -2092,7 +2092,7 @@
     2nd level or lower, the spell that created the light is dispelled.
 - name: darkvision
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: 8 hours
   school: transmutation
   range: Touch
@@ -2101,7 +2101,7 @@
     For the duration, that creature has darkvision out to a range of 60 feet.
 - name: dawn
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: evocation
   range: 60 feet
@@ -2116,7 +2116,7 @@
     feet as a bonus action on your turn.
 - name: daylight
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: evocation
   range: 60 feet
@@ -2131,7 +2131,7 @@
     that created the darkness is dispelled.
 - name: death ward
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: 8 hours
   school: abjuration
   range: Touch
@@ -2144,7 +2144,7 @@
     negated against the target, and the spell ends.
 - name: delayed blast fireball
   spell_level: 7
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: evocation
   range: 150 feet
@@ -2170,7 +2170,7 @@
     above 7th.
 - name: demiplane
   spell_level: 8
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: conjuration
   range: 60 feet
@@ -2188,7 +2188,7 @@
     shadowy door connect to its demiplane instead.
 - name: destructive wave
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: Self (30-foot radius)
@@ -2201,7 +2201,7 @@
     isn't knocked prone.
 - name: detect evil and good
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: divination
   range: Self
@@ -2215,7 +2215,7 @@
 - name: detect magic
   spell_level: 1
   ritual: true
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: divination
   range: Self
@@ -2229,7 +2229,7 @@
 - name: detect poison and disease
   spell_level: 1
   ritual: true
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: divination
   range: Self
@@ -2241,7 +2241,7 @@
     common metal, a thin sheet of lead, or 3 feet of wood or dirt.
 - name: detect thoughts
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: divination
   range: Self
@@ -2274,7 +2274,7 @@
     even if you can't see it, but it must still be within range.
 - name: dimension door
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: conjuration
   range: 500 feet
@@ -2292,7 +2292,7 @@
     damage, and the spell fails to teleport you.
 - name: disguise self
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: illusion
   range: Self
@@ -2313,7 +2313,7 @@
     check against your spell save DC.
 - name: disintegrate
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: transmutation
   range: 60 feet
@@ -2335,7 +2335,7 @@
     6th.
 - name: dispel evil and good
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: abjuration
   range: Self
@@ -2356,7 +2356,7 @@
     Shadowfell, and fey are sent to the Feywild.
 - name: dispel magic
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: abjuration
   range: 120 feet
@@ -2371,7 +2371,7 @@
     slot you used.
 - name: dissonant whispers
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: enchantment
   range: 60 feet
@@ -2409,7 +2409,7 @@
 - name: divination
   spell_level: 4
   ritual: true
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: divination
   range: Self
@@ -2426,7 +2426,7 @@
     that you get a random reading. The DM makes this roll in secret.
 - name: divine favor
   spell_level: 1
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 minute
   school: evocation
   range: Self
@@ -2435,7 +2435,7 @@
     weapon attacks deal an extra 1d4 radiant damage on a hit.
 - name: divine word
   spell_level: 7
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Instantaneous
   school: evocation
   range: 30 feet
@@ -2453,7 +2453,7 @@
     hours by any means short of a wish spell."
 - name: dominate beast
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: enchantment
   range: 60 feet
@@ -2483,7 +2483,7 @@
     to 8 hours.
 - name: dominate monster
   spell_level: 8
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: enchantment
   range: 60 feet
@@ -2510,7 +2510,7 @@
     slot, the duration is concentration, up to 8 hours.
 - name: dominate person
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: enchantment
   range: 60 feet
@@ -2540,7 +2540,7 @@
     to 8 hours.
 - name: dragon's breath
   spell_level: 2
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 minute
   school: transmutation
   range: Touch
@@ -2674,7 +2674,7 @@
     gentle breeze, and the area of spike growth is harmless.
 - name: druidcraft
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: transmutation
   range: 30 feet
@@ -2691,7 +2691,7 @@
     a torch, or a small campfire.
 - name: dust devil
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: conjuration
   range: 60 feet
@@ -2712,7 +2712,7 @@
     2nd.
 - name: earth tremor
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 10 feet
@@ -2728,7 +2728,7 @@
     1st.
 - name: earthbind
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: transmutation
   range: 300 feet
@@ -2740,7 +2740,7 @@
     descends at 60 feet per round until it reaches the ground or the spell ends.
 - name: earthquake
   spell_level: 8
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: evocation
   range: 500 feet
@@ -2775,7 +2775,7 @@
     creature takes half as much damage and doesn't fall prone or become buried.
 - name: eldritch blast
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 120 feet
@@ -2788,7 +2788,7 @@
     ones. Make a separate attack roll for each beam."
 - name: elemental bane
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: transmutation
   range: 90 feet
@@ -2806,7 +2806,7 @@
     target them.
 - name: elemental weapon
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: transmutation
   range: Touch
@@ -2821,7 +2821,7 @@
     the bonus increases to +3 and the extra damage increases to 3d4.
 - name: encode thoughts
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: 8 hours
   school: enchantment
   range: Self
@@ -2841,7 +2841,7 @@
     effect.)
 - name: enemies abound
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: enchantment
   range: 120 feet
@@ -2859,7 +2859,7 @@
     attack if it is able to.
 - name: enervation
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: necromancy
   range: 60 feet
@@ -2879,7 +2879,7 @@
     5th.
 - name: enhance ability
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: transmutation
   range: Touch
@@ -2899,7 +2899,7 @@
     level above 2nd.
 - name: enlarge/reduce
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: transmutation
   range: 30 feet
@@ -2926,7 +2926,7 @@
     them deal 1d4 less damage (this can't reduce the damage below 1).
 - name: ensnaring strike
   spell_level: 1
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 minute
   school: conjuration
   range: Self
@@ -2945,7 +2945,7 @@
     1st.
 - name: entangle
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: conjuration
   range: 90 feet
@@ -2960,7 +2960,7 @@
     wilt away.
 - name: enthrall
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 minute
   school: enchantment
   range: 60 feet
@@ -2975,7 +2975,7 @@
     ends if you are incapacitated or can no longer speak.
 - name: erupting earth
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: transmutation
   range: 120 feet
@@ -2992,7 +2992,7 @@
     3rd.
 - name: etherealness
   spell_level: 7
-  casting_time: Action
+  casting_time: 1 action
   duration: Up to 8 hours
   school: transmutation
   range: Self
@@ -3022,7 +3022,7 @@
     you when you cast the spell.
 - name: evard's black tentacles
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: conjuration
   range: 90 feet
@@ -3039,7 +3039,7 @@
     success, it frees itself.
 - name: expeditious retreat
   spell_level: 1
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 10 minutes
   school: transmutation
   range: Self
@@ -3049,7 +3049,7 @@
     ends, you can take the Dash action.
 - name: eyebite
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: necromancy
   range: Self
@@ -3091,7 +3091,7 @@
     proficiency with the type of artisan's tools used to craft such objects.
 - name: faerie fire
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: evocation
   range: 60 feet
@@ -3105,7 +3105,7 @@
     benefit from being invisible.
 - name: false life
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: necromancy
   range: Self
@@ -3117,7 +3117,7 @@
     slot level above 1st.
 - name: far step
   spell_level: 5
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 minute
   school: conjuration
   range: Self
@@ -3127,7 +3127,7 @@
     this way again.
 - name: fast friends
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: enchantment
   range: 30 feet
@@ -3152,7 +3152,7 @@
     level above 3rd.
 - name: fear
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: illusion
   range: Self (30-foot cone)
@@ -3167,7 +3167,7 @@
     successful save, the spell ends for that creature.
 - name: feather fall
   spell_level: 1
-  casting_time: Reaction
+  casting_time: 1 reaction, which you take when you or a creature within 60 feet of you falls
   duration: 1 minute
   school: transmutation
   range: 60 feet
@@ -3178,7 +3178,7 @@
     land on its feet, and the spell ends for that creature.
 - name: feeblemind
   spell_level: 8
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: enchantment
   range: 150 feet
@@ -3196,7 +3196,7 @@
 - name: feign death
   spell_level: 3
   ritual: true
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: necromancy
   range: Touch
@@ -3300,7 +3300,7 @@
     steed from its bond at any time, causing it to disappear."
 - name: find traps
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: divination
   range: 120 feet
@@ -3335,7 +3335,7 @@
     direct route (but not necessarily the safest route) to the destination.
 - name: finger of death
   spell_level: 7
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: necromancy
   range: 60 feet
@@ -3348,7 +3348,7 @@
     following your verbal orders to the best of its ability.
 - name: fire bolt
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 120 feet
@@ -3360,7 +3360,7 @@
     (2d10), 11th level (3d10), and 17th level (4d10).
 - name: fire shield
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: 10 minutes
   school: evocation
   range: Self
@@ -3375,7 +3375,7 @@
     fire damage from a warm shield, or 2d8 cold damage from a cold shield.
 - name: fire storm
   spell_level: 7
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 150 feet
@@ -3390,7 +3390,7 @@
     choose, plant life in the area is unaffected by this spell.
 - name: fireball
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 150 feet
@@ -3406,7 +3406,7 @@
     3rd.
 - name: flame arrows
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: transmutation
   range: Touch
@@ -3421,7 +3421,7 @@
     this spell increases by two for each slot level above 3rd.
 - name: flame blade
   spell_level: 2
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 10 minutes
   school: evocation
   range: Self
@@ -3437,7 +3437,7 @@
     above 2nd.
 - name: flame strike
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 60 feet
@@ -3452,7 +3452,7 @@
     increases by 1d6 for each slot level above 5th.
 - name: flaming sphere
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: conjuration
   range: 60 feet
@@ -3474,7 +3474,7 @@
     2nd.
 - name: flesh to stone
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: transmutation
   range: 60 feet
@@ -3495,7 +3495,7 @@
     is removed.
 - name: fly
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: transmutation
   range: Touch
@@ -3508,7 +3508,7 @@
     level above 3rd.
 - name: fog cloud
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: conjuration
   range: 120 feet
@@ -3548,7 +3548,7 @@
     are consumed on the last casting."
 - name: forcecage
   spell_level: 7
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: evocation
   range: 100 feet
@@ -3604,7 +3604,7 @@
     level above 2nd.
 - name: freedom of movement
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: abjuration
   range: Touch
@@ -3618,7 +3618,7 @@
     movement or attacks.
 - name: friends
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: enchantment
   range: Self
@@ -3631,7 +3631,7 @@
     discretion), depending on the nature of your interaction with it.
 - name: frost fingers
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: Self (15-foot cone)
@@ -3645,7 +3645,7 @@
     1st.
 - name: frostbite
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 60 feet
@@ -3658,7 +3658,7 @@
     level (4d6).
 - name: gaseous form
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: transmutation
   range: Touch
@@ -3679,7 +3679,7 @@
     spells.
 - name: gate
   spell_level: 9
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: conjuration
   range: 60 feet
@@ -3725,7 +3725,7 @@
 - name: gentle repose
   spell_level: 2
   ritual: true
-  casting_time: Action
+  casting_time: 1 action
   duration: 10 days
   school: necromancy
   range: Touch
@@ -3738,7 +3738,7 @@
     spells such as raise dead.
 - name: giant insect
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: transmutation
   range: 30 feet
@@ -3765,7 +3765,7 @@
     its initiative rolls.
 - name: gift of gab
   spell_level: 2
-  casting_time: Reaction
+  casting_time: 1 reaction, which you take when you speak to another creature
   duration: Instantaneous
   school: enchantment
   range: Self
@@ -3785,7 +3785,7 @@
     speak as the verbal component of the spell.
 - name: glibness
   spell_level: 8
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: transmutation
   range: Self
@@ -3796,7 +3796,7 @@
     truthful.
 - name: globe of invulnerability
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: abjuration
   range: Self (10-foot radius)
@@ -3863,7 +3863,7 @@
     warding.
 - name: goodberry
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: transmutation
   range: Touch
@@ -3875,7 +3875,7 @@
     consumed within 24 hours of the casting of this spell.
 - name: grasping vine
   spell_level: 4
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 minute
   school: conjuration
   range: 30 feet
@@ -3889,7 +3889,7 @@
     your turns.
 - name: gravity fissure
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: Self (100-foot line)
@@ -3906,7 +3906,7 @@
     6th.
 - name: gravity sinkhole
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 120 feet
@@ -3923,7 +3923,7 @@
     4th.
 - name: grease
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 minute
   school: conjuration
   range: 60 feet
@@ -3936,7 +3936,7 @@
     prone.
 - name: greater invisibility
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: illusion
   range: Touch
@@ -3946,7 +3946,7 @@
     the target's person.
 - name: greater restoration
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: abjuration
   range: Touch
@@ -3959,7 +3959,7 @@
     target's hit point maximum
 - name: green-flame blade
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: Self (5-foot radius)
@@ -3976,7 +3976,7 @@
     increase by 1d8 at 11th level (2d8 and 2d8) and 17th level (3d8 and 3d8).
 - name: guardian of faith
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: 8 hours
   school: conjuration
   range: 30 feet
@@ -3991,7 +3991,7 @@
     guardian vanishes when it has dealt a total of 60 damage.
 - name: guardian of nature
   spell_level: 4
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 minute
   school: transmutation
   range: Self
@@ -4051,7 +4051,7 @@
     and warded structure by casting this spell there every day for one year.
 - name: guidance
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: divination
   range: Touch
@@ -4062,7 +4062,7 @@
     ends.
 - name: guiding bolt
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 round
   school: evocation
   range: 120 feet
@@ -4077,7 +4077,7 @@
     1st.
 - name: gust
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: transmutation
   range: 30 feet
@@ -4093,7 +4093,7 @@
     to ripple in a breeze.
 - name: gust of wind
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: evocation
   range: Self (60-foot line)
@@ -4110,7 +4110,7 @@
     spell ends, you can change the direction in which the line blasts from you.
 - name: hail of thorns
   spell_level: 1
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 minute
   school: conjuration
   range: Self
@@ -4187,7 +4187,7 @@
     terrain.
 - name: harm
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: necromancy
   range: 60 feet
@@ -4202,7 +4202,7 @@
     passes.
 - name: haste
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: transmutation
   range: 30 feet
@@ -4216,7 +4216,7 @@
     as a wave of lethargy sweeps over it.
 - name: heal
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 60 feet
@@ -4230,7 +4230,7 @@
     level above 6th.
 - name: healing spirit
   spell_level: 2
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 minute
   school: conjuration
   range: 60 feet
@@ -4250,7 +4250,7 @@
     2nd.
 - name: healing word
   spell_level: 1
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Instantaneous
   school: evocation
   range: 60 feet
@@ -4263,7 +4263,7 @@
     1st.
 - name: heat metal
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: transmutation
   range: 60 feet
@@ -4282,7 +4282,7 @@
     2nd.
 - name: hellish rebuke
   spell_level: 1
-  casting_time: Reaction
+  casting_time: 1 reaction, which you take in response to being damaged by a creature within 60 feet of you that you can see
   duration: Instantaneous
   school: evocation
   range: 60 feet
@@ -4312,7 +4312,7 @@
     gains the same number of hit points. These benefits last for 24 hours.
 - name: heroism
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: enchantment
   range: Touch
@@ -4327,7 +4327,7 @@
     level above 1st.
 - name: hex
   spell_level: 1
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 hour
   school: enchantment
   range: 90 feet
@@ -4345,7 +4345,7 @@
     your concentration on the spell for up to 24 hours.
 - name: hold monster
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: enchantment
   range: 90 feet
@@ -4360,7 +4360,7 @@
     target them.
 - name: hold person
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: enchantment
   range: 60 feet
@@ -4375,7 +4375,7 @@
     target them.
 - name: holy aura
   spell_level: 8
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: abjuration
   range: Self
@@ -4392,7 +4392,7 @@
     blinded until the spell ends.
 - name: holy weapon
   spell_level: 5
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 hour
   school: evocation
   range: Touch
@@ -4411,7 +4411,7 @@
     effect on itself on a success.
 - name: hunger of hadar
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: conjuration
   range: 150 feet
@@ -4429,7 +4429,7 @@
     tentacles rub against it.
 - name: hunter's mark
   spell_level: 1
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 hour
   school: divination
   range: 90 feet
@@ -4446,7 +4446,7 @@
     your concentration on the spell for up to 24 hours.
 - name: hypnotic pattern
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: illusion
   range: 120 feet
@@ -4461,7 +4461,7 @@
     someone else uses an action to shake the creature out of its stupor.
 - name: ice knife
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: conjuration
   range: 60 feet
@@ -4476,7 +4476,7 @@
     above 1st.
 - name: ice storm
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 300 feet
@@ -4507,7 +4507,7 @@
     the casting, you learn what spells, if any, are currently affecting it.
 - name: illusory dragon
   spell_level: 8
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: illusion
   range: 120 feet
@@ -4553,7 +4553,7 @@
     both disappear.A creature with truesight can read the hidden message.
 - name: immolation
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: evocation
   range: 90 feet
@@ -4569,7 +4569,7 @@
     target, the target is turned to ash.
 - name: immovable object
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: transmutation
   range: Touch
@@ -4639,7 +4639,7 @@
     immediately freed from its binding.
 - name: incendiary cloud
   spell_level: 8
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: conjuration
   range: 150 feet
@@ -4656,7 +4656,7 @@
     choose at the start of each of your turns.
 - name: incite greed
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: enchantment
   range: 30 feet
@@ -4710,7 +4710,7 @@
     above 5th.
 - name: infestation
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: conjuration
   range: 30 feet
@@ -4726,7 +4726,7 @@
     level (4d6)."
 - name: inflict wounds
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: necromancy
   range: Touch
@@ -4738,7 +4738,7 @@
     1st.
 - name: insect plague
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: conjuration
   range: 300 feet
@@ -4756,7 +4756,7 @@
     5th.
 - name: intellect fortress
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: abjuration
   range: 30 feet
@@ -4770,7 +4770,7 @@
     target them.
 - name: investiture of flame
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: transmutation
   range: Self
@@ -4787,7 +4787,7 @@
     successful one.
 - name: investiture of ice
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: transmutation
   range: Self
@@ -4805,7 +4805,7 @@
     until the start of your next turn.
 - name: investiture of stone
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: transmutation
   range: Self
@@ -4822,7 +4822,7 @@
     space, this spell ends, and you are stunned until the end of your next turn.
 - name: investiture of wind
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: transmutation
   range: Self
@@ -4839,7 +4839,7 @@
     away from the center of the cube.
 - name: invisibility
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: illusion
   range: Touch
@@ -4852,7 +4852,7 @@
     level above 2nd.
 - name: invulnerability
   spell_level: 9
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: abjuration
   range: Self
@@ -4861,7 +4861,7 @@
   body: You are immune to all damage until the spell ends.
 - name: jim's glowing coin
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 minute
   school: enchantment
   range: 60 feet
@@ -4876,7 +4876,7 @@
     (Perception) checks and initiative rolls.
 - name: jim's magic missile
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 120 feet
@@ -4899,7 +4899,7 @@
     component increases by 1 gp, for each slot level above 1st.
 - name: jump
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 minute
   school: transmutation
   range: Touch
@@ -4908,7 +4908,7 @@
     spell ends.
 - name: knock
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: transmutation
   range: 60 feet
@@ -4944,7 +4944,7 @@
     axe, and only with the sacred word Rudnogg on the lips.\""
 - name: leomund's secret chest
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: conjuration
   range: Touch
@@ -4985,7 +4985,7 @@
     transparent from the inside.
 - name: lesser restoration
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: abjuration
   range: Touch
@@ -4995,7 +4995,7 @@
     poisoned.
 - name: levitate
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: transmutation
   range: 60 feet
@@ -5014,7 +5014,7 @@
     spell ends, the target floats gently to the ground if it is still aloft.
 - name: life transference
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: necromancy
   range: 30 feet
@@ -5028,7 +5028,7 @@
     3rd.
 - name: light
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: evocation
   range: Touch
@@ -5042,7 +5042,7 @@
     Dexterity saving throw to avoid the spell.
 - name: lightning arrow
   spell_level: 3
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 minute
   school: transmutation
   range: Self
@@ -5061,7 +5061,7 @@
     1d8 for each slot level above 3rd.
 - name: lightning bolt
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: Self (100-foot line)
@@ -5076,7 +5076,7 @@
     3rd.
 - name: lightning lure
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: Self (15-foot radius)
@@ -5090,7 +5090,7 @@
 - name: locate animals or plants
   spell_level: 2
   ritual: true
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: divination
   range: Self
@@ -5101,7 +5101,7 @@
     present.
 - name: locate creature
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: divination
   range: Self
@@ -5118,7 +5118,7 @@
     feet wide blocks a direct path between you and the creature.
 - name: locate object
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: divination
   range: Self
@@ -5134,7 +5134,7 @@
     between you and the object.
 - name: longstrider
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: transmutation
   range: Touch
@@ -5146,7 +5146,7 @@
     level above 1st.
 - name: maddening darkness
   spell_level: 8
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: evocation
   range: 150 feet
@@ -5161,7 +5161,7 @@
     or half as much damage on a successful one.
 - name: maelstrom
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: evocation
   range: 120 feet
@@ -5173,7 +5173,7 @@
     or take 6d6 bludgeoning damage and be pulled 10 feet toward the center.
 - name: mage armor
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: 8 hours
   school: abjuration
   range: Touch
@@ -5184,7 +5184,7 @@
     or if you dismiss the spell as an action.
 - name: mage hand
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 minute
   school: conjuration
   range: 30 feet
@@ -5262,7 +5262,7 @@
     destroyed.
 - name: magic missile
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 120 feet
@@ -5302,7 +5302,7 @@
     bell rings within 30 feet of it.
 - name: magic stone
   spell_level: 0
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: 1 minute
   school: transmutation
   range: Touch
@@ -5318,7 +5318,7 @@
     affected by your previous casting.
 - name: magic weapon
   spell_level: 2
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 hour
   school: transmutation
   range: Touch
@@ -5330,7 +5330,7 @@
     6th level or higher, the bonus increases to +3.
 - name: magnify gravity
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 round
   school: transmutation
   range: 60 feet
@@ -5348,7 +5348,7 @@
     1st.
 - name: major image
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: illusion
   range: 120 feet
@@ -5378,7 +5378,7 @@
     concentration.
 - name: mass cure wounds
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 60 feet
@@ -5392,7 +5392,7 @@
     5th.
 - name: mass heal
   spell_level: 9
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 60 feet
@@ -5404,7 +5404,7 @@
     deafened. This spell has no effect on undead or constructs.
 - name: mass healing word
   spell_level: 3
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Instantaneous
   school: evocation
   range: 60 feet
@@ -5418,7 +5418,7 @@
     3rd.
 - name: mass polymorph
   spell_level: 9
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: transmutation
   range: 120 feet
@@ -5444,7 +5444,7 @@
     otherwise benefit from any of its equipment.
 - name: mass suggestion
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: 24 hours
   school: enchantment
   range: 60 feet
@@ -5472,7 +5472,7 @@
     is a year and a day.
 - name: maximilian's earthen grasp
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: transmutation
   range: 30 feet
@@ -5492,7 +5492,7 @@
     target if you do either.
 - name: maze
   spell_level: 8
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: conjuration
   range: 60 feet
@@ -5507,7 +5507,7 @@
 - name: meld into stone
   spell_level: 3
   ritual: true
-  casting_time: Action
+  casting_time: 1 action
   duration: 8 hours
   school: transmutation
   range: Touch
@@ -5530,7 +5530,7 @@
     entered.
 - name: melf's acid arrow
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 90 feet
@@ -5546,7 +5546,7 @@
     for each slot level above 2nd.
 - name: melf's minute meteors
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: evocation
   range: Self
@@ -5577,7 +5577,7 @@
     magic to such an object.
 - name: mental prison
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: illusion
   range: 60 feet
@@ -5597,7 +5597,7 @@
     the spell ends.
 - name: message
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 round
   school: transmutation
   range: 120 feet
@@ -5612,7 +5612,7 @@
     openings.
 - name: meteor swarm
   spell_level: 9
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 1 mile
@@ -5665,7 +5665,7 @@
     makes the fortress permanent.
 - name: mind blank
   spell_level: 8
-  casting_time: Action
+  casting_time: 1 action
   duration: 24 hours
   school: abjuration
   range: Touch
@@ -5677,7 +5677,7 @@
     mind or to gain information about the target.
 - name: mind sliver
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 round
   school: enchantment
   range: 60 feet
@@ -5690,7 +5690,7 @@
     level (3d6), and 17th level (4d6)."
 - name: mind spike
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: divination
   range: 60 feet
@@ -5707,7 +5707,7 @@
     2nd.
 - name: minor illusion
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 minute
   school: illusion
   range: 30 feet
@@ -5752,7 +5752,7 @@
     illusion.
 - name: mirror image
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 minute
   school: illusion
   range: Self
@@ -5774,7 +5774,7 @@
     can perceive illusions as false, as with truesight.
 - name: mislead
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: illusion
   range: Self
@@ -5790,7 +5790,7 @@
     in regard to your own surroundings.
 - name: misty step
   spell_level: 2
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Instantaneous
   school: conjuration
   range: Self
@@ -5799,7 +5799,7 @@
     unoccupied space that you can see.
 - name: modify memory
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: enchantment
   range: 30 feet
@@ -5835,7 +5835,7 @@
     (8th level), or any time in the creature's past (9th level).
 - name: mold earth
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous or 1 hour (see below)
   school: transmutation
   range: 30 feet
@@ -5854,7 +5854,7 @@
     effects active at a time, and you can dismiss such an effect as an action.
 - name: moonbeam
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: evocation
   range: 120 feet
@@ -5876,7 +5876,7 @@
     2nd.
 - name: mordenkainen's faithful hound
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: 8 hours
   school: conjuration
   range: 30 feet
@@ -5948,7 +5948,7 @@
     200 feet on one side by using a spell slot of 5th level.
 - name: mordenkainen's sword
   spell_level: 7
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: evocation
   range: 60 feet
@@ -5982,7 +5982,7 @@
     level above 3rd.
 - name: move earth
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 2 hours
   school: transmutation
   range: 120 feet
@@ -6006,7 +6006,7 @@
     moved earth carries any plants along with it.
 - name: negative energy flood
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: necromancy
   range: 60 feet
@@ -6022,7 +6022,7 @@
     temporary hit points.
 - name: nondetection
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: 8 hours
   school: abjuration
   range: Touch
@@ -6034,7 +6034,7 @@
     magic or perceived through magical scrying sensors.
 - name: nystul's magic aura
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: 24 hours
   school: illusion
   range: Touch
@@ -6058,7 +6058,7 @@
     as if it were a creature of that type or of that alignment.
 - name: otiluke's freezing sphere
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 300 feet
@@ -6085,7 +6085,7 @@
     6th.
 - name: otiluke's resilient sphere
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: evocation
   range: 30 feet
@@ -6106,7 +6106,7 @@
     targeting the globe destroys it without harming anything inside it.
 - name: otto's irresistible dance
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: enchantment
   range: 30 feet
@@ -6121,7 +6121,7 @@
     throw to regain control of itself. On a successful save, the spell ends."
 - name: pass without trace
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: abjuration
   range: Self
@@ -6133,7 +6133,7 @@
     bonus leaves behind no tracks or other traces of its passage.
 - name: passwall
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: transmutation
   range: 30 feet
@@ -6148,7 +6148,7 @@
     spell."
 - name: phantasmal force
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: illusion
   range: 60 feet
@@ -6180,7 +6180,7 @@
     to the illusion.
 - name: phantasmal killer
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: illusion
   range: 120 feet
@@ -6281,7 +6281,7 @@
     year and a day with a 9th-level spell slot.
 - name: plane shift
   spell_level: 7
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: conjuration
   range: Touch
@@ -6306,7 +6306,7 @@
     transported must find its own way back to your current plane of existence.
 - name: plant growth
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: transmutation
   range: 150 feet
@@ -6323,7 +6323,7 @@
     normal amount of food when harvested.
 - name: poison spray
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: conjuration
   range: 10 feet
@@ -6335,7 +6335,7 @@
     17th level (4d12).
 - name: polymorph
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: transmutation
   range: 60 feet
@@ -6360,7 +6360,7 @@
     activate, use, wield, or otherwise benefit from any of its equipment.
 - name: power word heal
   spell_level: 9
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: Touch
@@ -6372,7 +6372,7 @@
     constructs.
 - name: power word kill
   spell_level: 9
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: enchantment
   range: 60 feet
@@ -6382,7 +6382,7 @@
     fewer, it dies. Otherwise, the spell has no effect.
 - name: power word pain
   spell_level: 7
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: enchantment
   range: 60 feet
@@ -6400,7 +6400,7 @@
     of its turns. On a successful save, the pain ends.
 - name: power word stun
   spell_level: 8
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: enchantment
   range: 60 feet
@@ -6425,7 +6425,7 @@
     2nd.
 - name: prestidigitation
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Up to 1 hour
   school: transmutation
   range: 10 feet
@@ -6445,7 +6445,7 @@
     effect as an action.
 - name: primal savagery
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: transmutation
   range: Self
@@ -6458,7 +6458,7 @@
     (3d10), and 17th level (4d10).
 - name: primordial ward
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: abjuration
   range: Self
@@ -6470,7 +6470,7 @@
     immunity until the end of your next turn, at which time the spell ends.
 - name: prismatic spray
   spell_level: 7
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: Self (60-foot cone)
@@ -6501,7 +6501,7 @@
     two rays. Roll twice more, rerolling any 8.
 - name: prismatic wall
   spell_level: 9
-  casting_time: Action
+  casting_time: 1 action
   duration: 10 minutes
   school: abjuration
   range: 60 feet
@@ -6558,7 +6558,7 @@
     or higher level that can end spells and magical effects.
 - name: produce flame
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: 10 minutes
   school: conjuration
   range: Self
@@ -6574,7 +6574,7 @@
     5th level (2d8), 11th level (3d8), and 17th level (4d8).
 - name: programmed illusion
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Until dispelled
   school: illusion
   range: 120 feet
@@ -6601,7 +6601,7 @@
     hollow to the creature.
 - name: project image
   spell_level: 7
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 day
   school: illusion
   range: 500 miles
@@ -6624,7 +6624,7 @@
     through the image, and any noise it makes sounds hollow to the creature.
 - name: protection from energy
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: abjuration
   range: Touch
@@ -6633,7 +6633,7 @@
     damage type of your choice: acid, cold, fire, lightning, or thunder."
 - name: protection from evil and good
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: abjuration
   range: Touch
@@ -6647,7 +6647,7 @@
     advantage on any new saving throw against the relevant effect."
 - name: protection from poison
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: abjuration
   range: Touch
@@ -6659,7 +6659,7 @@
     resistance to poison damage.
 - name: psychic scream
   spell_level: 9
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: enchantment
   range: 90 feet
@@ -6675,7 +6675,7 @@
     stunning effect ends.
 - name: pulse wave
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: Self (30-foot cone)
@@ -6694,7 +6694,7 @@
 - name: purify food and drink
   spell_level: 1
   ritual: true
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: transmutation
   range: 10 feet
@@ -6704,7 +6704,7 @@
     and disease.
 - name: pyrotechnics
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: transmutation
   range: 60 feet
@@ -6742,7 +6742,7 @@
 - name: rary's telepathic bond
   spell_level: 5
   ritual: true
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: divination
   range: 30 feet
@@ -6756,7 +6756,7 @@
     other planes of existence.
 - name: ravenous void
   spell_level: 9
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: evocation
   range: 1000 feet
@@ -6781,7 +6781,7 @@
     along with any nonmagical items it is wearing or carrying.
 - name: ray of enfeeblement
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: necromancy
   range: 60 feet
@@ -6793,7 +6793,7 @@
     Constitution saving throw against the spell. On a success, the spell ends.
 - name: ray of frost
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 60 feet
@@ -6805,7 +6805,7 @@
     11th level (3d8), and 17th level (4d8).
 - name: ray of sickness
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: necromancy
   range: 60 feet
@@ -6819,7 +6819,7 @@
     1st.
 - name: reality break
   spell_level: 8
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: conjuration
   range: 60 feet
@@ -6878,7 +6878,7 @@
     race for the new one and changes its racial traits accordingly.
 - name: remove curse
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: abjuration
   range: Touch
@@ -6888,7 +6888,7 @@
     owner's attunement to the object so it can be removed or discarded.
 - name: resistance
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: abjuration
   range: Touch
@@ -6920,7 +6920,7 @@
     disadvantage on all attack rolls, ability checks, and saving throws.
 - name: reverse gravity
   spell_level: 7
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: transmutation
   range: 100 feet
@@ -6937,7 +6937,7 @@
     end of the duration, affected objects and creatures fall back down.
 - name: revivify
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: necromancy
   range: Touch
@@ -6947,7 +6947,7 @@
     that has died of old age, nor can it restore any missing body parts.
 - name: rope trick
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: transmutation
   range: Touch
@@ -6965,7 +6965,7 @@
     out when the spell ends.
 - name: sacred flame
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 60 feet
@@ -6977,7 +6977,7 @@
     (3d8), and 17th level (4d8).
 - name: sanctuary
   spell_level: 1
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: 1 minute
   school: abjuration
   range: 30 feet
@@ -6991,7 +6991,7 @@
     an enemy, or deals damage to another creature, this spell ends.
 - name: sapping sting
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: necromancy
   range: 30 feet
@@ -7002,7 +7002,7 @@
     11th level (3d4), and 17th level (4d4).
 - name: scatter
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: conjuration
   range: 30 feet
@@ -7014,7 +7014,7 @@
     on the ground or on a floor.
 - name: scorching ray
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 120 feet
@@ -7053,7 +7053,7 @@
     that location and doesn't move.
 - name: searing smite
   spell_level: 1
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 minute
   school: evocation
   range: Self
@@ -7072,7 +7072,7 @@
     by 1d6 for each slot level above 1st.
 - name: see invisibility
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: divination
   range: Self
@@ -7082,7 +7082,7 @@
     objects appear ghostly and translucent.
 - name: seeming
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: 8 hours
   school: illusion
   range: 30 feet
@@ -7107,7 +7107,7 @@
     succeeds, it becomes aware that the target is disguised.
 - name: sending
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 round
   school: evocation
   range: Unlimited
@@ -7122,7 +7122,7 @@
     that the message doesn't arrive.
 - name: sequester
   spell_level: 7
-  casting_time: Action
+  casting_time: 1 action
   duration: Until dispelled
   school: transmutation
   range: Touch
@@ -7140,7 +7140,7 @@
     the target takes any damage.
 - name: shadow blade
   spell_level: 2
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 minute
   school: illusion
   range: Self
@@ -7160,7 +7160,7 @@
     using a spell slot of 7th level or higher, the damage increases to 5d8.
 - name: shadow of moil
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: necromancy
   range: Self
@@ -7173,7 +7173,7 @@
     out at that creature, dealing it 2d8 necrotic damage.
 - name: shape water
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous or 1 hour (see below)
   school: transmutation
   range: 30 feet
@@ -7191,7 +7191,7 @@
     effects active at a time, and you can dismiss such an effect as an action.
 - name: shapechange
   spell_level: 9
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: transmutation
   range: Self
@@ -7231,7 +7231,7 @@
     current one, your hit points remain at their current value."
 - name: shatter
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 60 feet
@@ -7248,7 +7248,7 @@
     2nd.
 - name: shield
   spell_level: 1
-  casting_time: Reaction
+  casting_time: 1 reaction, which you take when you are hit by an attack or targeted by the magic missile spell
   duration: 1 round
   school: abjuration
   range: Self
@@ -7258,7 +7258,7 @@
     triggering attack, and you take no damage from magic missile.
 - name: shield of faith
   spell_level: 1
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 10 minutes
   school: abjuration
   range: 60 feet
@@ -7267,7 +7267,7 @@
     range, granting it a +2 bonus to AC for the duration.
 - name: shillelagh
   spell_level: 0
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: 1 minute
   school: transmutation
   range: Touch
@@ -7280,7 +7280,7 @@
     the weapon.
 - name: shocking grasp
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: Touch
@@ -7293,7 +7293,7 @@
     5th level (2d8), 11th level (3d8), and 17th level (4d8).
 - name: sickening radiance
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: evocation
   range: 120 feet
@@ -7310,7 +7310,7 @@
 - name: silence
   spell_level: 2
   ritual: true
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: illusion
   range: 120 feet
@@ -7322,7 +7322,7 @@
     includes a verbal component is impossible there.
 - name: silent image
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: illusion
   range: 60 feet
@@ -7369,7 +7369,7 @@
     instantly destroyed.
 - name: skill empowerment
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: transmutation
   range: Touch
@@ -7383,7 +7383,7 @@
 - name: skywrite
   spell_level: 2
   ritual: true
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: transmutation
   range: Sight
@@ -7394,7 +7394,7 @@
     disperse the clouds and end the spell early.
 - name: sleep
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 minute
   school: enchantment
   range: 90 feet
@@ -7414,7 +7414,7 @@
     2nd level or higher, roll an additional 2d8 for each slot level above 1st.
 - name: sleet storm
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: conjuration
   range: 150 feet
@@ -7430,7 +7430,7 @@
     Constitution saving throw against your spell save DC or lose concentration.
 - name: slow
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: transmutation
   range: 120 feet
@@ -7472,7 +7472,7 @@
     creature is restrained by it.
 - name: snilloc's snowball swarm
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 90 feet
@@ -7486,7 +7486,7 @@
     2nd.
 - name: soul cage
   spell_level: 6
-  casting_time: Reaction
+  casting_time: 1 reaction, , which you take when a humanoid you can see within 60 feet of you dies
   duration: 8 hours
   school: necromancy
   range: 60 feet
@@ -7517,7 +7517,7 @@
     sees a translucent image of the tormented humanoid whose soul you caged.
 - name: spare the dying
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: necromancy
   range: Touch
@@ -7527,7 +7527,7 @@
 - name: speak with animals
   spell_level: 1
   ritual: true
-  casting_time: Action
+  casting_time: 1 action
   duration: 10 minutes
   school: divination
   range: Self
@@ -7540,7 +7540,7 @@
     perform a small favor for you, at the DM's discretion.
 - name: speak with dead
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: 10 minutes
   school: necromancy
   range: 10 feet
@@ -7559,7 +7559,7 @@
     about future events.
 - name: speak with plants
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: 10 minutes
   school: transmutation
   range: Self (30-foot radius)
@@ -7581,7 +7581,7 @@
     created by the entangle spell to release a restrained creature.
 - name: spider climb
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: transmutation
   range: Touch
@@ -7592,7 +7592,7 @@
     to its walking speed.
 - name: spike growth
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: transmutation
   range: 150 feet
@@ -7606,7 +7606,7 @@
     spell save DC to recognize the terrain as hazardous before entering it.
 - name: spirit guardians
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: conjuration
   range: Self (15-foot radius)
@@ -7626,7 +7626,7 @@
     3rd.
 - name: spirit shroud
   spell_level: 3
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 minute
   school: necromancy
   range: Self
@@ -7644,7 +7644,7 @@
     above 3rd.
 - name: spiritual weapon
   spell_level: 2
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: 1 minute
   school: evocation
   range: 60 feet
@@ -7664,7 +7664,7 @@
     above 2nd.
 - name: staggering smite
   spell_level: 4
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 minute
   school: evocation
   range: Self
@@ -7677,7 +7677,7 @@
     turn.
 - name: steel wind strike
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: conjuration
   range: 30 feet
@@ -7689,7 +7689,7 @@
     feet of one of the targets you hit or missed.
 - name: stinking cloud
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: conjuration
   range: 90 feet
@@ -7706,7 +7706,7 @@
     it after 1 round.
 - name: stone shape
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: transmutation
   range: Touch
@@ -7721,7 +7721,7 @@
     latch, but finer mechanical detail isn't possible.
 - name: stoneskin
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: abjuration
   range: Touch
@@ -7731,7 +7731,7 @@
     bludgeoning, piercing, and slashing damage.
 - name: storm sphere
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: evocation
   range: 150 feet
@@ -7752,7 +7752,7 @@
     each slot level above 4th.
 - name: storm of vengeance
   spell_level: 9
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: conjuration
   range: Sight
@@ -7780,7 +7780,7 @@
     mists, and similar phenomena in the area, whether mundane or magical.
 - name: suggestion
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 8 hours
   school: enchantment
   range: 30 feet
@@ -7803,7 +7803,7 @@
     ends.
 - name: summon aberration
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: conjuration
   range: 90 feet
@@ -7824,7 +7824,7 @@
     in the stat block.
 - name: summon beast
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: conjuration
   range: 90 feet
@@ -7845,7 +7845,7 @@
     in the stat block.
 - name: summon celestial
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: conjuration
   range: 90 feet
@@ -7865,7 +7865,7 @@
     in the stat block.
 - name: summon construct
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: conjuration
   range: 90 feet
@@ -7885,7 +7885,7 @@
     in the stat block.
 - name: summon elemental
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: conjuration
   range: 90 feet
@@ -7906,7 +7906,7 @@
     in the stat block.
 - name: summon fey
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: conjuration
   range: 90 feet
@@ -7926,7 +7926,7 @@
     in the stat block.
 - name: summon fiend
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: conjuration
   range: 90 feet
@@ -7946,7 +7946,7 @@
     in the stat block.
 - name: summon greater demon
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: conjuration
   range: 60 feet
@@ -7977,7 +7977,7 @@
     above 4th.
 - name: summon lesser demons
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: conjuration
   range: 60 feet
@@ -8002,7 +8002,7 @@
     spell slot of 8th or 9th level, you summon three times as many demons.
 - name: summon shadowspawn
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: conjuration
   range: 90 feet
@@ -8022,7 +8022,7 @@
     in the stat block.
 - name: summon undead
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: necromancy
   range: 90 feet
@@ -8042,7 +8042,7 @@
     in the stat block.
 - name: sunbeam
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: evocation
   range: Self (60-foot line)
@@ -8058,7 +8058,7 @@
     for an additional 30 feet. This light is sunlight.
 - name: sunburst
   spell_level: 8
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 150 feet
@@ -8074,7 +8074,7 @@
     by a spell.
 - name: swift quiver
   spell_level: 5
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 minute
   school: transmutation
   range: Touch
@@ -8089,7 +8089,7 @@
     If the quiver leaves your possession, the spell ends.
 - name: sword burst
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: conjuration
   range: Self (5-foot radius)
@@ -8156,7 +8156,7 @@
     on a failed save.
 - name: synaptic static
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: enchantment
   range: 120 feet
@@ -8173,7 +8173,7 @@
     turns, ending the effect on itself on a success.
 - name: tasha's caustic brew
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: evocation
   range: Self (30-foot line)
@@ -8189,7 +8189,7 @@
     1st.
 - name: tasha's hideous laughter
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: enchantment
   range: 30 feet
@@ -8204,7 +8204,7 @@
     it's triggered by damage. On a success, the spell ends.
 - name: tasha's mind whip
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 round
   school: enchantment
   range: 90 feet
@@ -8222,7 +8222,7 @@
     target them.
 - name: tasha's otherworldly guise
   spell_level: 6
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 minute
   school: transmutation
   range: Self
@@ -8243,7 +8243,7 @@
     turn.
 - name: telekinesis
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: transmutation
   range: 60 feet
@@ -8274,7 +8274,7 @@
     vial.
 - name: telepathy
   spell_level: 8
-  casting_time: Action
+  casting_time: 1 action
   duration: 24 hours
   school: evocation
   range: Unlimited
@@ -8290,7 +8290,7 @@
     of any sensory messages you send to it.
 - name: teleport
   spell_level: 7
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: conjuration
   range: 10 feet
@@ -8405,7 +8405,7 @@
     makes this effect permanent."
 - name: temporal shunt
   spell_level: 5
-  casting_time: Reaction
+  casting_time: 1 reaction, taken when a creature you can see makes an attack roll or starts to cast a spell.
   duration: 1 round
   school: transmutation
   range: 120 feet
@@ -8421,7 +8421,7 @@
 - name: tenser's floating disk
   spell_level: 1
   ritual: true
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: conjuration
   range: 30 feet
@@ -8441,7 +8441,7 @@
     to follow you), the spell ends.
 - name: tenser's transformation
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: transmutation
   range: Self
@@ -8460,7 +8460,7 @@
     Constitution saving throw or suffer one level of exhaustion.
 - name: tether essence
   spell_level: 7
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: necromancy
   range: 60 feet
@@ -8477,7 +8477,7 @@
     the spell ends on both. If the spell ends on one creature, it ends on both.
 - name: thaumaturgy
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Up to 1 minute
   school: transmutation
   range: 30 feet
@@ -8495,7 +8495,7 @@
     dismiss such an effect as an action.
 - name: thorn whip
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: transmutation
   range: 30 feet
@@ -8508,7 +8508,7 @@
     (2d6), 11th level (3d6), and 17th level (4d6).
 - name: thunder step
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: conjuration
   range: 90 feet
@@ -8529,7 +8529,7 @@
     3rd.
 - name: thunderclap
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 5 feet
@@ -8540,7 +8540,7 @@
     when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
 - name: thunderous smite
   spell_level: 1
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 minute
   school: evocation
   range: Self
@@ -8552,7 +8552,7 @@
     saving throw or be pushed 10 feet away from you and knocked prone.
 - name: thunderwave
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: Self (15-foot cube)
@@ -8569,7 +8569,7 @@
     1st.
 - name: tidal wave
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: conjuration
   range: 120 feet
@@ -8584,7 +8584,7 @@
     then it vanishes.
 - name: time ravage
   spell_level: 9
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: necromancy
   range: 90 feet
@@ -8601,7 +8601,7 @@
     and restore the target to its previous age.
 - name: time stop
   spell_level: 9
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: transmutation
   range: Self
@@ -8640,7 +8640,7 @@
     level above 3rd.
 - name: toll the dead
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: necromancy
   range: 60 feet
@@ -8653,7 +8653,7 @@
     11th level (3d8 or 3d12), and 17th level (4d8 or 4d12).
 - name: tongues
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: divination
   range: Touch
@@ -8664,7 +8664,7 @@
     says.
 - name: transmute rock
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Until dispelled
   school: transmutation
   range: 120 feet
@@ -8694,7 +8694,7 @@
     hit points, and it is immune to poison and psychic damage.
 - name: transport via plants
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 round
   school: conjuration
   range: 10 feet
@@ -8706,7 +8706,7 @@
     exit from the destination plant by using 5 feet of movement.
 - name: tree stride
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: conjuration
   range: Self
@@ -8723,7 +8723,7 @@
     per round for the duration. You must end each turn outside a tree.
 - name: true polymorph
   spell_level: 9
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: transmutation
   range: 30 feet
@@ -8785,7 +8785,7 @@
     you.
 - name: true seeing
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: divination
   range: Touch
@@ -8797,7 +8797,7 @@
     to a range of 120 feet.
 - name: true strike
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 round
   school: divination
   range: 30 feet
@@ -8833,7 +8833,7 @@
 - name: unseen servant
   spell_level: 1
   ritual: true
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: conjuration
   range: 60 feet
@@ -8853,7 +8853,7 @@
     you, the spell ends.
 - name: vampiric touch
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: necromancy
   range: Self
@@ -8869,7 +8869,7 @@
     3rd.
 - name: vicious mockery
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: enchantment
   range: 60 feet
@@ -8882,7 +8882,7 @@
     you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).
 - name: vitriolic sphere
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 150 feet
@@ -8898,7 +8898,7 @@
     above 4th.
 - name: wall of fire
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: evocation
   range: 120 feet
@@ -8919,7 +8919,7 @@
     4th.
 - name: wall of force
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: evocation
   range: 120 feet
@@ -8939,7 +8939,7 @@
     ethereal travel through the wall.
 - name: wall of ice
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: evocation
   range: 120 feet
@@ -8965,7 +8965,7 @@
     by 1d6, for each slot level above 6th.
 - name: wall of light
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: evocation
   range: 120 feet
@@ -8992,7 +8992,7 @@
     5th.
 - name: wall of sand
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: evocation
   range: 90 feet
@@ -9004,7 +9004,7 @@
     3 feet of movement for every 1 foot it moves there.
 - name: wall of stone
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: evocation
   range: 120 feet
@@ -9033,7 +9033,7 @@
     be dispelled. Otherwise, the wall disappears when the spell ends.
 - name: wall of thorns
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: conjuration
   range: 120 feet
@@ -9056,7 +9056,7 @@
     level above 6th.
 - name: wall of water
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: evocation
   range: 60 feet
@@ -9075,7 +9075,7 @@
     water doesn't fill it.
 - name: warding bond
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: abjuration
   range: Touch
@@ -9091,7 +9091,7 @@
     dismiss the spell as an action.
 - name: warding wind
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 10 minutes
   school: evocation
   range: Self
@@ -9107,7 +9107,7 @@
 - name: water breathing
   spell_level: 3
   ritual: true
-  casting_time: Action
+  casting_time: 1 action
   duration: 24 hours
   school: transmutation
   range: 30 feet
@@ -9118,7 +9118,7 @@
 - name: water walk
   spell_level: 3
   ritual: true
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 hour
   school: transmutation
   range: 30 feet
@@ -9132,7 +9132,7 @@
     round.
 - name: watery sphere
   spell_level: 4
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: conjuration
   range: 90 feet
@@ -9161,7 +9161,7 @@
     vanishes.
 - name: web
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: conjuration
   range: 60 feet
@@ -9182,7 +9182,7 @@
     creature that starts its turn in the fire.
 - name: weird
   spell_level: 9
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: illusion
   range: 120 feet
@@ -9198,7 +9198,7 @@
     creature.
 - name: whirlwind
   spell_level: 7
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: evocation
   range: 300 feet
@@ -9242,7 +9242,7 @@
     falls the remaining distance.
 - name: wind wall
   spell_level: 3
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: evocation
   range: 120 feet
@@ -9262,7 +9262,7 @@
     Creatures in gaseous form can't pass through it.
 - name: wish
   spell_level: 9
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: conjuration
   range: Self
@@ -9308,7 +9308,7 @@
     again if you suffer this stress.
 - name: witch bolt
   spell_level: 1
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: evocation
   range: 30 feet
@@ -9326,7 +9326,7 @@
     level above 1st.
 - name: word of radiance
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 5 feet
@@ -9338,7 +9338,7 @@
     level (4d6).
 - name: word of recall
   spell_level: 6
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: conjuration
   range: 5 feet
@@ -9354,7 +9354,7 @@
     the spell has no effect.
 - name: wrath of nature
   spell_level: 5
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute
   school: evocation
   range: 120 feet
@@ -9378,7 +9378,7 @@
     prone.
 - name: wrathful smite
   spell_level: 1
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 minute
   school: evocation
   range: Self
@@ -9392,7 +9392,7 @@
 - name: wristpocket
   spell_level: 2
   ritual: true
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 hour
   school: conjuration
   range: Self
@@ -9406,7 +9406,7 @@
     ends appears in your space, at your feet.
 - name: zephyr strike
   spell_level: 1
-  casting_time: Bonus
+  casting_time: 1 bonus action
   duration: Concentration, up to 1 minute
   school: transmutation
   range: Self
@@ -9418,7 +9418,7 @@
     speed increases by 30 feet until the end of that turn.
 - name: zone of truth
   spell_level: 2
-  casting_time: Action
+  casting_time: 1 action
   duration: 10 minutes
   school: enchantment
   range: 60 feet
@@ -9435,7 +9435,7 @@
     truth.
 - name: blood lance (Guild)
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: pure sangromancy
   range: 60 feet
@@ -9444,7 +9444,7 @@
   higher_levels: The spell’s damage increase by 1d8 whenever you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8). Using a blood point changes all damage dice to d12s.
 - name: calling card (GH)
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Until dispelled
   school: illusion
   range: Touch
@@ -9452,7 +9452,7 @@
   body: You touch a corpse and mark it with a magical mark. You can choose to make it a visible mark that appears as a rune or word written on the flesh, or you can choose to make it an invisible mark. Creatures who specifically examine a corpse for a calling card automatically detect one, whether visible or invisible.
 - name: corrosive blade (Homebrew)
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 round
   school: evocation
   range: Self (5-foot radius)
@@ -9461,7 +9461,7 @@
   higher_levels: At 5th level, the melee attack deals an extra 1d6 acid damage to the target on a hit, and the additional damage the target takes when not removing the acid increasess to 1d4 + your spellcasting ability modifier. Both damage rolls increase by 1d6 and 1d4 respectively at 11th level (2d6 and 2d4) and 17th level (3d6 and 3d4).
 - name: frozen blade (Homebrew)
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: 1 round
   school: evocation
   range: Self (5-foot radius)
@@ -9470,7 +9470,7 @@
   higher_levels: At 5th level, the melee attack deals an extra 1d8 cold damage to the target on a hit. The damage roll increases by 1d8 at 11th level (2d8) and 17th level (3d8).
 - name: holy word (GH)
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Instantaneous
   school: evocation
   range: 60 feet
@@ -9479,7 +9479,7 @@
   higher_levels: This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17thlevel (4d8).
 - name: hunter sense (GH)
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: Concentration, up to 1 minute.
   school: divination
   range: Touch
@@ -9487,7 +9487,7 @@
   body: You touch one willing creature. While this spell is active, the target’s senses are heightened. If the target rolls a 9 or below on the die when making a Wisdom (Perception) check, they instead act as if they rolled a 10.
 - name: illusory instrument (GH)
   spell_level: 0
-  casting_time: Action
+  casting_time: 1 action
   duration: 10 minutes
   school: illusion
   range: 5 feet
