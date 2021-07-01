@@ -3752,7 +3752,7 @@
   duration: Instantaneous
   school: enchantment
   range: Self
-  components: V, S, R (2 gp)
+  components: V, S, M (2 gp)
   body: “When I met Jim Darkmagic, I wondered how he got anything done in that
     outfit. I have since learned that most of his talents involve standing and
     talking. His outfit is perfect for that.”— MôrgænJim Darkmagic is said to
@@ -4846,7 +4846,7 @@
   duration: 1 minute
   school: enchantment
   range: 60 feet
-  components: S, M (a coin), R (2 gp)
+  components: S, M (a coin, 2 gp)
   body: Of the many tactics employed by master magician and renowned adventurer
     Jim Darkmagic, the old glowing coin trick is a time-honored classic. When
     you cast the spell, you hurl the coin that is the spell's material component
@@ -4861,7 +4861,7 @@
   duration: Instantaneous
   school: evocation
   range: 120 feet
-  components: V, S, R (1 gp)
+  components: V, S, M (1 gp)
   body: “Jim's magic missile is an ancient and powerful spell, as well as being
     the name of my band in Wizard Academy.”— Jim DarkmagicAny apprentice wizard
     can cast a boring old magic missile. Sure, it always strikes its target.
