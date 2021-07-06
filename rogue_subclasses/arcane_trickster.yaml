@@ -1,0 +1,15 @@
+name: arcane trickster
+flavour_text: |1
+  Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. These rogues include pickpockets and burglars, but also pranksters, mischief-makers, and a significant number of adventurers.
+
+caster_type: third
+
+start_cantrips_known: 2
+
+class_resources:
+  Spells Known: [0, 0, 3, 4, 4, 4, 5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 11, 11, 12, 13]
+
+features:
+  - name: aa
+    level: 3
+    body: aa

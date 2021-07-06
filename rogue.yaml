@@ -51,6 +51,7 @@ subclasses:
   postfix: Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.
   entries:
     - rogue_subclasses/assassin.yaml
+    - rogue_subclasses/arcane_trickster.yaml
   features:
     - 3
     - 9
