@@ -3,558 +3,1782 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="../style.css" />
-    <title></title>
+    <title>Spells</title>
   </head>
 
   <body>
-
-    <h1 class="title">Niebs Critial Collection</h1>
+    <h1 class="title"><a
+        href="../"
+      >Niebs Critical Collection</a></h1>
     <div class="container">
-      <h1><a href="../index.html">
+      <h1><a href="../">
           🠔
         </a>
       </h1>
       <h1>Spells</h1>
-              <h2>Cantrip</h2>
+      <h2>Filter</h2>
+      <form id="filter">
+        <div>
+          <input
+            type="radio"
+            id="radio-choice-all-classes"
+            name="class-filter"
+            value="all"
+            checked
+          />
+          <label for="radio-choice-all-classes">All</label>
+            <input
+              type="radio"
+              id="radio-choice-class-wizard"
+              name="class-filter"
+              value="wizard"
+            />
+            <label for="radio-choice-class-wizard">Wizard</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            id="radio-choice-all-schools"
+            name="school-filter"
+            value="all"
+            checked
+          />
+          <label for="radio-choice-all-schools">All</label>
+          <input
+          type="radio"
+          id="radio-choice-school-abjuration"
+          name="school-filter"
+          value="abjuration"
+          />
+          <label for="radio-choice-school-abjuration">Abjuration</label>
+          <input
+          type="radio"
+          id="radio-choice-school-abjurationsangromancy"
+          name="school-filter"
+          value="abjuration (sangromancy)"
+          />
+          <label for="radio-choice-school-abjurationsangromancy">Abjuration (Sangromancy)</label>
+          <input
+          type="radio"
+          id="radio-choice-school-conjuration"
+          name="school-filter"
+          value="conjuration"
+          />
+          <label for="radio-choice-school-conjuration">Conjuration</label>
+          <input
+          type="radio"
+          id="radio-choice-school-conjurationsangromancy"
+          name="school-filter"
+          value="conjuration (sangromancy)"
+          />
+          <label for="radio-choice-school-conjurationsangromancy">Conjuration (Sangromancy)</label>
+          <input
+          type="radio"
+          id="radio-choice-school-divination"
+          name="school-filter"
+          value="divination"
+          />
+          <label for="radio-choice-school-divination">Divination</label>
+          <input
+          type="radio"
+          id="radio-choice-school-divinationsangromancy"
+          name="school-filter"
+          value="divination (sangromancy)"
+          />
+          <label for="radio-choice-school-divinationsangromancy">Divination (Sangromancy)</label>
+          <input
+          type="radio"
+          id="radio-choice-school-enchantment"
+          name="school-filter"
+          value="enchantment"
+          />
+          <label for="radio-choice-school-enchantment">Enchantment</label>
+          <input
+          type="radio"
+          id="radio-choice-school-enchantmentsangromancy"
+          name="school-filter"
+          value="enchantment (sangromancy)"
+          />
+          <label for="radio-choice-school-enchantmentsangromancy">Enchantment (Sangromancy)</label>
+          <input
+          type="radio"
+          id="radio-choice-school-evocation"
+          name="school-filter"
+          value="evocation"
+          />
+          <label for="radio-choice-school-evocation">Evocation</label>
+          <input
+          type="radio"
+          id="radio-choice-school-evocationsangromancy"
+          name="school-filter"
+          value="evocation (sangromancy)"
+          />
+          <label for="radio-choice-school-evocationsangromancy">Evocation (Sangromancy)</label>
+          <input
+          type="radio"
+          id="radio-choice-school-illusion"
+          name="school-filter"
+          value="illusion"
+          />
+          <label for="radio-choice-school-illusion">Illusion</label>
+          <input
+          type="radio"
+          id="radio-choice-school-illusionsangromancy"
+          name="school-filter"
+          value="illusion (sangromancy)"
+          />
+          <label for="radio-choice-school-illusionsangromancy">Illusion (Sangromancy)</label>
+          <input
+          type="radio"
+          id="radio-choice-school-necromancy"
+          name="school-filter"
+          value="necromancy"
+          />
+          <label for="radio-choice-school-necromancy">Necromancy</label>
+          <input
+          type="radio"
+          id="radio-choice-school-necromancysangromancy"
+          name="school-filter"
+          value="necromancy (sangromancy)"
+          />
+          <label for="radio-choice-school-necromancysangromancy">Necromancy (Sangromancy)</label>
+          <input
+          type="radio"
+          id="radio-choice-school-puresangromancy"
+          name="school-filter"
+          value="pure sangromancy"
+          />
+          <label for="radio-choice-school-puresangromancy">Pure Sangromancy</label>
+          <input
+          type="radio"
+          id="radio-choice-school-transmutation"
+          name="school-filter"
+          value="transmutation"
+          />
+          <label for="radio-choice-school-transmutation">Transmutation</label>
+          <input
+          type="radio"
+          id="radio-choice-school-transmutationsangromancy"
+          name="school-filter"
+          value="transmutation (sangromancy)"
+          />
+          <label for="radio-choice-school-transmutationsangromancy">Transmutation (Sangromancy)</label>
+        </div>
+      </form>
+        <h2>Cantrip</h2>
         <ul class="list-by-level">
-                      <li><a href="./acid splash.html">Acid Splash</a></li>
-                      <li><a href="./blade ward.html">Blade Ward</a></li>
-                      <li><a href="./blood lance (Guild).html">Blood Lance (Guild)</a></li>
-                      <li><a href="./booming blade.html">Booming Blade</a></li>
-                      <li><a href="./calling card (GH).html">Calling Card (GH)</a></li>
-                      <li><a href="./chill touch.html">Chill Touch</a></li>
-                      <li><a href="./control flames.html">Control Flames</a></li>
-                      <li><a href="./corrosive blade (Homebrew).html">Corrosive Blade (Homebrew)</a></li>
-                      <li><a href="./create bonfire.html">Create Bonfire</a></li>
-                      <li><a href="./dancing lights.html">Dancing Lights</a></li>
-                      <li><a href="./druidcraft.html">Druidcraft</a></li>
-                      <li><a href="./eldritch blast.html">Eldritch Blast</a></li>
-                      <li><a href="./encode thoughts.html">Encode Thoughts</a></li>
-                      <li><a href="./fire bolt.html">Fire Bolt</a></li>
-                      <li><a href="./friends.html">Friends</a></li>
-                      <li><a href="./frostbite.html">Frostbite</a></li>
-                      <li><a href="./frozen blade (Homebrew).html">Frozen Blade (Homebrew)</a></li>
-                      <li><a href="./green-flame blade.html">Green-Flame Blade</a></li>
-                      <li><a href="./guidance.html">Guidance</a></li>
-                      <li><a href="./gust.html">Gust</a></li>
-                      <li><a href="./holy word (GH).html">Holy Word (GH)</a></li>
-                      <li><a href="./hunter sense (GH).html">Hunter Sense (GH)</a></li>
-                      <li><a href="./illusory instrument (GH).html">Illusory Instrument (GH)</a></li>
-                      <li><a href="./infestation.html">Infestation</a></li>
-                      <li><a href="./light.html">Light</a></li>
-                      <li><a href="./lightning lure.html">Lightning Lure</a></li>
-                      <li><a href="./mage hand.html">Mage Hand</a></li>
-                      <li><a href="./magic stone.html">Magic Stone</a></li>
-                      <li><a href="./mending.html">Mending</a></li>
-                      <li><a href="./message.html">Message</a></li>
-                      <li><a href="./mind sliver.html">Mind Sliver</a></li>
-                      <li><a href="./minor illusion.html">Minor Illusion</a></li>
-                      <li><a href="./mold earth.html">Mold Earth</a></li>
-                      <li><a href="./poison spray.html">Poison Spray</a></li>
-                      <li><a href="./prestidigitation.html">Prestidigitation</a></li>
-                      <li><a href="./primal savagery.html">Primal Savagery</a></li>
-                      <li><a href="./produce flame.html">Produce Flame</a></li>
-                      <li><a href="./ray of frost.html">Ray Of Frost</a></li>
-                      <li><a href="./resistance.html">Resistance</a></li>
-                      <li><a href="./sacred flame.html">Sacred Flame</a></li>
-                      <li><a href="./sapping sting.html">Sapping Sting</a></li>
-                      <li><a href="./shape water.html">Shape Water</a></li>
-                      <li><a href="./shillelagh.html">Shillelagh</a></li>
-                      <li><a href="./shocking grasp.html">Shocking Grasp</a></li>
-                      <li><a href="./spare the dying.html">Spare The Dying</a></li>
-                      <li><a href="./sword burst.html">Sword Burst</a></li>
-                      <li><a href="./thaumaturgy.html">Thaumaturgy</a></li>
-                      <li><a href="./thorn whip.html">Thorn Whip</a></li>
-                      <li><a href="./thunderclap.html">Thunderclap</a></li>
-                      <li><a href="./toll the dead.html">Toll The Dead</a></li>
-                      <li><a href="./true strike.html">True Strike</a></li>
-                      <li><a href="./vicious mockery.html">Vicious Mockery</a></li>
-                      <li><a href="./word of radiance.html">Word Of Radiance</a></li>
-                  </ul>
-              <h2>1st Level</h2>
+            <li class="spell class-all school-all class-wizard school-conjuration"><a
+                href="./acid splash.html"
+              >Acid Splash</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./blade ward.html"
+              >Blade Ward</a></li>
+            <li class="spell class-all school-all school-puresangromancy"><a
+                href="./blood lance (Guild).html"
+              >Blood Lance (Guild)</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./booming blade.html"
+              >Booming Blade</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./calling card (GH).html"
+              >Calling Card (GH)</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./chill touch.html"
+              >Chill Touch</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./control flames.html"
+              >Control Flames</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./corrosive blade (Homebrew).html"
+              >Corrosive Blade (Homebrew)</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./create bonfire.html"
+              >Create Bonfire</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./dancing lights.html"
+              >Dancing Lights</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./druidcraft.html"
+              >Druidcraft</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./eldritch blast.html"
+              >Eldritch Blast</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./encode thoughts.html"
+              >Encode Thoughts</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./fire bolt.html"
+              >Fire Bolt</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./friends.html"
+              >Friends</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./frostbite.html"
+              >Frostbite</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./frozen blade (Homebrew).html"
+              >Frozen Blade (Homebrew)</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./green-flame blade.html"
+              >Green-Flame Blade</a></li>
+            <li class="spell class-all school-all school-divination"><a
+                href="./guidance.html"
+              >Guidance</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./gust.html"
+              >Gust</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./holy word (GH).html"
+              >Holy Word (GH)</a></li>
+            <li class="spell class-all school-all school-divination"><a
+                href="./hunter sense (GH).html"
+              >Hunter Sense (GH)</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./illusory instrument (GH).html"
+              >Illusory Instrument (GH)</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./infestation.html"
+              >Infestation</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./light.html"
+              >Light</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./lightning lure.html"
+              >Lightning Lure</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./mage hand.html"
+              >Mage Hand</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./magic stone.html"
+              >Magic Stone</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./mending.html"
+              >Mending</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./message.html"
+              >Message</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./mind sliver.html"
+              >Mind Sliver</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./minor illusion.html"
+              >Minor Illusion</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./mold earth.html"
+              >Mold Earth</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./poison spray.html"
+              >Poison Spray</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./prestidigitation.html"
+              >Prestidigitation</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./primal savagery.html"
+              >Primal Savagery</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./produce flame.html"
+              >Produce Flame</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./ray of frost.html"
+              >Ray Of Frost</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./resistance.html"
+              >Resistance</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./sacred flame.html"
+              >Sacred Flame</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./sapping sting.html"
+              >Sapping Sting</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./shape water.html"
+              >Shape Water</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./shillelagh.html"
+              >Shillelagh</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./shocking grasp.html"
+              >Shocking Grasp</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./spare the dying.html"
+              >Spare The Dying</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./sword burst.html"
+              >Sword Burst</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./thaumaturgy.html"
+              >Thaumaturgy</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./thorn whip.html"
+              >Thorn Whip</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./thunderclap.html"
+              >Thunderclap</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./toll the dead.html"
+              >Toll The Dead</a></li>
+            <li class="spell class-all school-all school-divination"><a
+                href="./true strike.html"
+              >True Strike</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./vicious mockery.html"
+              >Vicious Mockery</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./word of radiance.html"
+              >Word Of Radiance</a></li>
+        </ul>
+        <h2>1st Level</h2>
         <ul class="list-by-level">
-                      <li><a href="./absorb elements.html">Absorb Elements</a></li>
-                      <li><a href="./alarm.html">Alarm</a></li>
-                      <li><a href="./animal friendship.html">Animal Friendship</a></li>
-                      <li><a href="./armor of agathys.html">Armor Of Agathys</a></li>
-                      <li><a href="./arms of hadar.html">Arms Of Hadar</a></li>
-                      <li><a href="./bane.html">Bane</a></li>
-                      <li><a href="./beast bond.html">Beast Bond</a></li>
-                      <li><a href="./bless.html">Bless</a></li>
-                      <li><a href="./burning hands.html">Burning Hands</a></li>
-                      <li><a href="./catapult.html">Catapult</a></li>
-                      <li><a href="./cause fear.html">Cause Fear</a></li>
-                      <li><a href="./ceremony.html">Ceremony</a></li>
-                      <li><a href="./chaos bolt.html">Chaos Bolt</a></li>
-                      <li><a href="./charm person.html">Charm Person</a></li>
-                      <li><a href="./chromatic orb.html">Chromatic Orb</a></li>
-                      <li><a href="./color spray.html">Color Spray</a></li>
-                      <li><a href="./command.html">Command</a></li>
-                      <li><a href="./compelled duel.html">Compelled Duel</a></li>
-                      <li><a href="./comprehend languages.html">Comprehend Languages</a></li>
-                      <li><a href="./create or destroy water.html">Create Or Destroy Water</a></li>
-                      <li><a href="./cure wounds.html">Cure Wounds</a></li>
-                      <li><a href="./detect evil and good.html">Detect Evil And Good</a></li>
-                      <li><a href="./detect magic.html">Detect Magic</a></li>
-                      <li><a href="./detect poison and disease.html">Detect Poison And Disease</a></li>
-                      <li><a href="./disguise self.html">Disguise Self</a></li>
-                      <li><a href="./dissonant whispers.html">Dissonant Whispers</a></li>
-                      <li><a href="./distort value.html">Distort Value</a></li>
-                      <li><a href="./divine favor.html">Divine Favor</a></li>
-                      <li><a href="./earth tremor.html">Earth Tremor</a></li>
-                      <li><a href="./ensnaring strike.html">Ensnaring Strike</a></li>
-                      <li><a href="./entangle.html">Entangle</a></li>
-                      <li><a href="./expeditious retreat.html">Expeditious Retreat</a></li>
-                      <li><a href="./faerie fire.html">Faerie Fire</a></li>
-                      <li><a href="./false life.html">False Life</a></li>
-                      <li><a href="./feather fall.html">Feather Fall</a></li>
-                      <li><a href="./find familiar.html">Find Familiar</a></li>
-                      <li><a href="./fog cloud.html">Fog Cloud</a></li>
-                      <li><a href="./frost fingers.html">Frost Fingers</a></li>
-                      <li><a href="./gift of alacrity.html">Gift Of Alacrity</a></li>
-                      <li><a href="./goodberry.html">Goodberry</a></li>
-                      <li><a href="./grease.html">Grease</a></li>
-                      <li><a href="./guiding bolt.html">Guiding Bolt</a></li>
-                      <li><a href="./hail of thorns.html">Hail Of Thorns</a></li>
-                      <li><a href="./healing word.html">Healing Word</a></li>
-                      <li><a href="./hellish rebuke.html">Hellish Rebuke</a></li>
-                      <li><a href="./heroism.html">Heroism</a></li>
-                      <li><a href="./hex.html">Hex</a></li>
-                      <li><a href="./hunter's mark.html">Hunter's Mark</a></li>
-                      <li><a href="./ice knife.html">Ice Knife</a></li>
-                      <li><a href="./identify.html">Identify</a></li>
-                      <li><a href="./illusory script.html">Illusory Script</a></li>
-                      <li><a href="./inflict wounds.html">Inflict Wounds</a></li>
-                      <li><a href="./jim's magic missile.html">Jim's Magic Missile</a></li>
-                      <li><a href="./jump.html">Jump</a></li>
-                      <li><a href="./longstrider.html">Longstrider</a></li>
-                      <li><a href="./mage armor.html">Mage Armor</a></li>
-                      <li><a href="./magic missile.html">Magic Missile</a></li>
-                      <li><a href="./magnify gravity.html">Magnify Gravity</a></li>
-                      <li><a href="./protection from evil and good.html">Protection From Evil And Good</a></li>
-                      <li><a href="./purify food and drink.html">Purify Food And Drink</a></li>
-                      <li><a href="./ray of sickness.html">Ray Of Sickness</a></li>
-                      <li><a href="./sanctuary.html">Sanctuary</a></li>
-                      <li><a href="./searing smite.html">Searing Smite</a></li>
-                      <li><a href="./shield.html">Shield</a></li>
-                      <li><a href="./shield of faith.html">Shield Of Faith</a></li>
-                      <li><a href="./silent image.html">Silent Image</a></li>
-                      <li><a href="./sleep.html">Sleep</a></li>
-                      <li><a href="./snare.html">Snare</a></li>
-                      <li><a href="./speak with animals.html">Speak With Animals</a></li>
-                      <li><a href="./tasha's caustic brew.html">Tasha's Caustic Brew</a></li>
-                      <li><a href="./tasha's hideous laughter.html">Tasha's Hideous Laughter</a></li>
-                      <li><a href="./tenser's floating disk.html">Tenser's Floating Disk</a></li>
-                      <li><a href="./thunderous smite.html">Thunderous Smite</a></li>
-                      <li><a href="./thunderwave.html">Thunderwave</a></li>
-                      <li><a href="./unseen servant.html">Unseen Servant</a></li>
-                      <li><a href="./witch bolt.html">Witch Bolt</a></li>
-                      <li><a href="./wrathful smite.html">Wrathful Smite</a></li>
-                      <li><a href="./zephyr strike.html">Zephyr Strike</a></li>
-                  </ul>
-              <h2>2nd Level</h2>
+            <li class="spell class-all school-all class-wizard school-abjuration"><a
+                href="./absorb elements.html"
+              >Absorb Elements</a></li>
+            <li class="spell class-all school-all school-abjuration ritual"><a
+                href="./alarm.html"
+              >Alarm</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./animal friendship.html"
+              >Animal Friendship</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./armor of agathys.html"
+              >Armor Of Agathys</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./arms of hadar.html"
+              >Arms Of Hadar</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./bane.html"
+              >Bane</a></li>
+            <li class="spell class-all school-all school-divination"><a
+                href="./beast bond.html"
+              >Beast Bond</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./bless.html"
+              >Bless</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./burning hands.html"
+              >Burning Hands</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./catapult.html"
+              >Catapult</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./cause fear.html"
+              >Cause Fear</a></li>
+            <li class="spell class-all school-all school-abjuration ritual"><a
+                href="./ceremony.html"
+              >Ceremony</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./chaos bolt.html"
+              >Chaos Bolt</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./charm person.html"
+              >Charm Person</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./chromatic orb.html"
+              >Chromatic Orb</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./color spray.html"
+              >Color Spray</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./command.html"
+              >Command</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./compelled duel.html"
+              >Compelled Duel</a></li>
+            <li class="spell class-all school-all school-divination ritual"><a
+                href="./comprehend languages.html"
+              >Comprehend Languages</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./create or destroy water.html"
+              >Create Or Destroy Water</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./cure wounds.html"
+              >Cure Wounds</a></li>
+            <li class="spell class-all school-all school-divination"><a
+                href="./detect evil and good.html"
+              >Detect Evil And Good</a></li>
+            <li class="spell class-all school-all school-divination ritual"><a
+                href="./detect magic.html"
+              >Detect Magic</a></li>
+            <li class="spell class-all school-all school-divination ritual"><a
+                href="./detect poison and disease.html"
+              >Detect Poison And Disease</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./disguise self.html"
+              >Disguise Self</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./dissonant whispers.html"
+              >Dissonant Whispers</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./distort value.html"
+              >Distort Value</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./divine favor.html"
+              >Divine Favor</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./earth tremor.html"
+              >Earth Tremor</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./ensnaring strike.html"
+              >Ensnaring Strike</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./entangle.html"
+              >Entangle</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./expeditious retreat.html"
+              >Expeditious Retreat</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./faerie fire.html"
+              >Faerie Fire</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./false life.html"
+              >False Life</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./feather fall.html"
+              >Feather Fall</a></li>
+            <li class="spell class-all school-all class-wizard school-conjuration ritual"><a
+                href="./find familiar.html"
+              >Find Familiar</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./fog cloud.html"
+              >Fog Cloud</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./frost fingers.html"
+              >Frost Fingers</a></li>
+            <li class="spell class-all school-all school-divination"><a
+                href="./gift of alacrity.html"
+              >Gift Of Alacrity</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./goodberry.html"
+              >Goodberry</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./grease.html"
+              >Grease</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./guiding bolt.html"
+              >Guiding Bolt</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./hail of thorns.html"
+              >Hail Of Thorns</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./healing word.html"
+              >Healing Word</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./hellish rebuke.html"
+              >Hellish Rebuke</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./heroism.html"
+              >Heroism</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./hex.html"
+              >Hex</a></li>
+            <li class="spell class-all school-all school-divination"><a
+                href="./hunter's mark.html"
+              >Hunter'S Mark</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./ice knife.html"
+              >Ice Knife</a></li>
+            <li class="spell class-all school-all school-divination ritual"><a
+                href="./identify.html"
+              >Identify</a></li>
+            <li class="spell class-all school-all school-illusion ritual"><a
+                href="./illusory script.html"
+              >Illusory Script</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./inflict wounds.html"
+              >Inflict Wounds</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./jim's magic missile.html"
+              >Jim'S Magic Missile</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./jump.html"
+              >Jump</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./longstrider.html"
+              >Longstrider</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./mage armor.html"
+              >Mage Armor</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./magic missile.html"
+              >Magic Missile</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./magnify gravity.html"
+              >Magnify Gravity</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./protection from evil and good.html"
+              >Protection From Evil And Good</a></li>
+            <li class="spell class-all school-all school-transmutation ritual"><a
+                href="./purify food and drink.html"
+              >Purify Food And Drink</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./ray of sickness.html"
+              >Ray Of Sickness</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./sanctuary.html"
+              >Sanctuary</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./searing smite.html"
+              >Searing Smite</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./shield.html"
+              >Shield</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./shield of faith.html"
+              >Shield Of Faith</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./silent image.html"
+              >Silent Image</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./sleep.html"
+              >Sleep</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./snare.html"
+              >Snare</a></li>
+            <li class="spell class-all school-all school-divination ritual"><a
+                href="./speak with animals.html"
+              >Speak With Animals</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./tasha's caustic brew.html"
+              >Tasha'S Caustic Brew</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./tasha's hideous laughter.html"
+              >Tasha'S Hideous Laughter</a></li>
+            <li class="spell class-all school-all school-conjuration ritual"><a
+                href="./tenser's floating disk.html"
+              >Tenser'S Floating Disk</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./thunderous smite.html"
+              >Thunderous Smite</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./thunderwave.html"
+              >Thunderwave</a></li>
+            <li class="spell class-all school-all school-conjuration ritual"><a
+                href="./unseen servant.html"
+              >Unseen Servant</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./witch bolt.html"
+              >Witch Bolt</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./wrathful smite.html"
+              >Wrathful Smite</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./zephyr strike.html"
+              >Zephyr Strike</a></li>
+        </ul>
+        <h2>2nd Level</h2>
         <ul class="list-by-level">
-                      <li><a href="./aganazzar's scorcher.html">Aganazzar's Scorcher</a></li>
-                      <li><a href="./aid.html">Aid</a></li>
-                      <li><a href="./alter self.html">Alter Self</a></li>
-                      <li><a href="./animal messenger.html">Animal Messenger</a></li>
-                      <li><a href="./arcane lock.html">Arcane Lock</a></li>
-                      <li><a href="./augury.html">Augury</a></li>
-                      <li><a href="./barkskin.html">Barkskin</a></li>
-                      <li><a href="./beast sense.html">Beast Sense</a></li>
-                      <li><a href="./blindness_deafness.html">Blindness/Deafness</a></li>
-                      <li><a href="./blur.html">Blur</a></li>
-                      <li><a href="./branding smite.html">Branding Smite</a></li>
-                      <li><a href="./calm emotions.html">Calm Emotions</a></li>
-                      <li><a href="./cloud of daggers.html">Cloud Of Daggers</a></li>
-                      <li><a href="./continual flame.html">Continual Flame</a></li>
-                      <li><a href="./cordon of arrows.html">Cordon Of Arrows</a></li>
-                      <li><a href="./crown of madness.html">Crown Of Madness</a></li>
-                      <li><a href="./darkness.html">Darkness</a></li>
-                      <li><a href="./darkvision.html">Darkvision</a></li>
-                      <li><a href="./detect thoughts.html">Detect Thoughts</a></li>
-                      <li><a href="./dragon's breath.html">Dragon's Breath</a></li>
-                      <li><a href="./dust devil.html">Dust Devil</a></li>
-                      <li><a href="./earthbind.html">Earthbind</a></li>
-                      <li><a href="./enhance ability.html">Enhance Ability</a></li>
-                      <li><a href="./enlarge_reduce.html">Enlarge/Reduce</a></li>
-                      <li><a href="./enthrall.html">Enthrall</a></li>
-                      <li><a href="./find steed.html">Find Steed</a></li>
-                      <li><a href="./find traps.html">Find Traps</a></li>
-                      <li><a href="./flame blade.html">Flame Blade</a></li>
-                      <li><a href="./flaming sphere.html">Flaming Sphere</a></li>
-                      <li><a href="./fortune's favor.html">Fortune's Favor</a></li>
-                      <li><a href="./gentle repose.html">Gentle Repose</a></li>
-                      <li><a href="./gift of gab.html">Gift Of Gab</a></li>
-                      <li><a href="./gust of wind.html">Gust Of Wind</a></li>
-                      <li><a href="./healing spirit.html">Healing Spirit</a></li>
-                      <li><a href="./heat metal.html">Heat Metal</a></li>
-                      <li><a href="./hold person.html">Hold Person</a></li>
-                      <li><a href="./immovable object.html">Immovable Object</a></li>
-                      <li><a href="./invisibility.html">Invisibility</a></li>
-                      <li><a href="./jim's glowing coin.html">Jim's Glowing Coin</a></li>
-                      <li><a href="./knock.html">Knock</a></li>
-                      <li><a href="./lesser restoration.html">Lesser Restoration</a></li>
-                      <li><a href="./levitate.html">Levitate</a></li>
-                      <li><a href="./locate animals or plants.html">Locate Animals Or Plants</a></li>
-                      <li><a href="./locate object.html">Locate Object</a></li>
-                      <li><a href="./magic mouth.html">Magic Mouth</a></li>
-                      <li><a href="./magic weapon.html">Magic Weapon</a></li>
-                      <li><a href="./maximilian's earthen grasp.html">Maximilian's Earthen Grasp</a></li>
-                      <li><a href="./melf's acid arrow.html">Melf's Acid Arrow</a></li>
-                      <li><a href="./mind spike.html">Mind Spike</a></li>
-                      <li><a href="./mirror image.html">Mirror Image</a></li>
-                      <li><a href="./misty step.html">Misty Step</a></li>
-                      <li><a href="./moonbeam.html">Moonbeam</a></li>
-                      <li><a href="./nystul's magic aura.html">Nystul's Magic Aura</a></li>
-                      <li><a href="./pass without trace.html">Pass Without Trace</a></li>
-                      <li><a href="./phantasmal force.html">Phantasmal Force</a></li>
-                      <li><a href="./prayer of healing.html">Prayer Of Healing</a></li>
-                      <li><a href="./protection from poison.html">Protection From Poison</a></li>
-                      <li><a href="./pyrotechnics.html">Pyrotechnics</a></li>
-                      <li><a href="./ray of enfeeblement.html">Ray Of Enfeeblement</a></li>
-                      <li><a href="./rope trick.html">Rope Trick</a></li>
-                      <li><a href="./scorching ray.html">Scorching Ray</a></li>
-                      <li><a href="./see invisibility.html">See Invisibility</a></li>
-                      <li><a href="./shadow blade.html">Shadow Blade</a></li>
-                      <li><a href="./shatter.html">Shatter</a></li>
-                      <li><a href="./silence.html">Silence</a></li>
-                      <li><a href="./skywrite.html">Skywrite</a></li>
-                      <li><a href="./snilloc's snowball swarm.html">Snilloc's Snowball Swarm</a></li>
-                      <li><a href="./spider climb.html">Spider Climb</a></li>
-                      <li><a href="./spike growth.html">Spike Growth</a></li>
-                      <li><a href="./spiritual weapon.html">Spiritual Weapon</a></li>
-                      <li><a href="./suggestion.html">Suggestion</a></li>
-                      <li><a href="./summon beast.html">Summon Beast</a></li>
-                      <li><a href="./tasha's mind whip.html">Tasha's Mind Whip</a></li>
-                      <li><a href="./warding bond.html">Warding Bond</a></li>
-                      <li><a href="./warding wind.html">Warding Wind</a></li>
-                      <li><a href="./web.html">Web</a></li>
-                      <li><a href="./wristpocket.html">Wristpocket</a></li>
-                      <li><a href="./zone of truth.html">Zone Of Truth</a></li>
-                  </ul>
-              <h2>3rd Level</h2>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./aganazzar's scorcher.html"
+              >Aganazzar'S Scorcher</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./aid.html"
+              >Aid</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./alter self.html"
+              >Alter Self</a></li>
+            <li class="spell class-all school-all school-enchantment ritual"><a
+                href="./animal messenger.html"
+              >Animal Messenger</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./arcane lock.html"
+              >Arcane Lock</a></li>
+            <li class="spell class-all school-all school-divination ritual"><a
+                href="./augury.html"
+              >Augury</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./barkskin.html"
+              >Barkskin</a></li>
+            <li class="spell class-all school-all school-divination ritual"><a
+                href="./beast sense.html"
+              >Beast Sense</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./blindness_deafness.html"
+              >Blindness/Deafness</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./blur.html"
+              >Blur</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./branding smite.html"
+              >Branding Smite</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./calm emotions.html"
+              >Calm Emotions</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./cloud of daggers.html"
+              >Cloud Of Daggers</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./continual flame.html"
+              >Continual Flame</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./cordon of arrows.html"
+              >Cordon Of Arrows</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./crown of madness.html"
+              >Crown Of Madness</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./darkness.html"
+              >Darkness</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./darkvision.html"
+              >Darkvision</a></li>
+            <li class="spell class-all school-all school-divination"><a
+                href="./detect thoughts.html"
+              >Detect Thoughts</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./dragon's breath.html"
+              >Dragon'S Breath</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./dust devil.html"
+              >Dust Devil</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./earthbind.html"
+              >Earthbind</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./enhance ability.html"
+              >Enhance Ability</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./enlarge_reduce.html"
+              >Enlarge/Reduce</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./enthrall.html"
+              >Enthrall</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./find steed.html"
+              >Find Steed</a></li>
+            <li class="spell class-all school-all school-divination"><a
+                href="./find traps.html"
+              >Find Traps</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./flame blade.html"
+              >Flame Blade</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./flaming sphere.html"
+              >Flaming Sphere</a></li>
+            <li class="spell class-all school-all school-divination"><a
+                href="./fortune's favor.html"
+              >Fortune'S Favor</a></li>
+            <li class="spell class-all school-all school-necromancy ritual"><a
+                href="./gentle repose.html"
+              >Gentle Repose</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./gift of gab.html"
+              >Gift Of Gab</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./gust of wind.html"
+              >Gust Of Wind</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./healing spirit.html"
+              >Healing Spirit</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./heat metal.html"
+              >Heat Metal</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./hold person.html"
+              >Hold Person</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./immovable object.html"
+              >Immovable Object</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./invisibility.html"
+              >Invisibility</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./jim's glowing coin.html"
+              >Jim'S Glowing Coin</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./knock.html"
+              >Knock</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./lesser restoration.html"
+              >Lesser Restoration</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./levitate.html"
+              >Levitate</a></li>
+            <li class="spell class-all school-all school-divination ritual"><a
+                href="./locate animals or plants.html"
+              >Locate Animals Or Plants</a></li>
+            <li class="spell class-all school-all school-divination"><a
+                href="./locate object.html"
+              >Locate Object</a></li>
+            <li class="spell class-all school-all school-illusion ritual"><a
+                href="./magic mouth.html"
+              >Magic Mouth</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./magic weapon.html"
+              >Magic Weapon</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./maximilian's earthen grasp.html"
+              >Maximilian'S Earthen Grasp</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./melf's acid arrow.html"
+              >Melf'S Acid Arrow</a></li>
+            <li class="spell class-all school-all school-divination"><a
+                href="./mind spike.html"
+              >Mind Spike</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./mirror image.html"
+              >Mirror Image</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./misty step.html"
+              >Misty Step</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./moonbeam.html"
+              >Moonbeam</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./nystul's magic aura.html"
+              >Nystul'S Magic Aura</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./pass without trace.html"
+              >Pass Without Trace</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./phantasmal force.html"
+              >Phantasmal Force</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./prayer of healing.html"
+              >Prayer Of Healing</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./protection from poison.html"
+              >Protection From Poison</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./pyrotechnics.html"
+              >Pyrotechnics</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./ray of enfeeblement.html"
+              >Ray Of Enfeeblement</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./rope trick.html"
+              >Rope Trick</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./scorching ray.html"
+              >Scorching Ray</a></li>
+            <li class="spell class-all school-all school-divination"><a
+                href="./see invisibility.html"
+              >See Invisibility</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./shadow blade.html"
+              >Shadow Blade</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./shatter.html"
+              >Shatter</a></li>
+            <li class="spell class-all school-all school-illusion ritual"><a
+                href="./silence.html"
+              >Silence</a></li>
+            <li class="spell class-all school-all school-transmutation ritual"><a
+                href="./skywrite.html"
+              >Skywrite</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./snilloc's snowball swarm.html"
+              >Snilloc'S Snowball Swarm</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./spider climb.html"
+              >Spider Climb</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./spike growth.html"
+              >Spike Growth</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./spiritual weapon.html"
+              >Spiritual Weapon</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./suggestion.html"
+              >Suggestion</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./summon beast.html"
+              >Summon Beast</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./tasha's mind whip.html"
+              >Tasha'S Mind Whip</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./warding bond.html"
+              >Warding Bond</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./warding wind.html"
+              >Warding Wind</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./web.html"
+              >Web</a></li>
+            <li class="spell class-all school-all school-conjuration ritual"><a
+                href="./wristpocket.html"
+              >Wristpocket</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./zone of truth.html"
+              >Zone Of Truth</a></li>
+        </ul>
+        <h2>3rd Level</h2>
         <ul class="list-by-level">
-                      <li><a href="./animate dead.html">Animate Dead</a></li>
-                      <li><a href="./aura of vitality.html">Aura Of Vitality</a></li>
-                      <li><a href="./beacon of hope.html">Beacon Of Hope</a></li>
-                      <li><a href="./bestow curse.html">Bestow Curse</a></li>
-                      <li><a href="./blinding smite.html">Blinding Smite</a></li>
-                      <li><a href="./blink.html">Blink</a></li>
-                      <li><a href="./call lightning.html">Call Lightning</a></li>
-                      <li><a href="./catnap.html">Catnap</a></li>
-                      <li><a href="./clairvoyance.html">Clairvoyance</a></li>
-                      <li><a href="./conjure animals.html">Conjure Animals</a></li>
-                      <li><a href="./conjure barrage.html">Conjure Barrage</a></li>
-                      <li><a href="./counterspell.html">Counterspell</a></li>
-                      <li><a href="./create food and water.html">Create Food And Water</a></li>
-                      <li><a href="./crusader's mantle.html">Crusader's Mantle</a></li>
-                      <li><a href="./daylight.html">Daylight</a></li>
-                      <li><a href="./dispel magic.html">Dispel Magic</a></li>
-                      <li><a href="./elemental weapon.html">Elemental Weapon</a></li>
-                      <li><a href="./enemies abound.html">Enemies Abound</a></li>
-                      <li><a href="./erupting earth.html">Erupting Earth</a></li>
-                      <li><a href="./fast friends.html">Fast Friends</a></li>
-                      <li><a href="./fear.html">Fear</a></li>
-                      <li><a href="./feign death.html">Feign Death</a></li>
-                      <li><a href="./fireball.html">Fireball</a></li>
-                      <li><a href="./flame arrows.html">Flame Arrows</a></li>
-                      <li><a href="./fly.html">Fly</a></li>
-                      <li><a href="./gaseous form.html">Gaseous Form</a></li>
-                      <li><a href="./glyph of warding.html">Glyph Of Warding</a></li>
-                      <li><a href="./haste.html">Haste</a></li>
-                      <li><a href="./hunger of hadar.html">Hunger Of Hadar</a></li>
-                      <li><a href="./hypnotic pattern.html">Hypnotic Pattern</a></li>
-                      <li><a href="./incite greed.html">Incite Greed</a></li>
-                      <li><a href="./intellect fortress.html">Intellect Fortress</a></li>
-                      <li><a href="./leomund's tiny hut.html">Leomund's Tiny Hut</a></li>
-                      <li><a href="./life transference.html">Life Transference</a></li>
-                      <li><a href="./lightning arrow.html">Lightning Arrow</a></li>
-                      <li><a href="./lightning bolt.html">Lightning Bolt</a></li>
-                      <li><a href="./magic circle.html">Magic Circle</a></li>
-                      <li><a href="./major image.html">Major Image</a></li>
-                      <li><a href="./mass healing word.html">Mass Healing Word</a></li>
-                      <li><a href="./meld into stone.html">Meld Into Stone</a></li>
-                      <li><a href="./melf's minute meteors.html">Melf's Minute Meteors</a></li>
-                      <li><a href="./motivational speech.html">Motivational Speech</a></li>
-                      <li><a href="./nondetection.html">Nondetection</a></li>
-                      <li><a href="./phantom steed.html">Phantom Steed</a></li>
-                      <li><a href="./plant growth.html">Plant Growth</a></li>
-                      <li><a href="./protection from energy.html">Protection From Energy</a></li>
-                      <li><a href="./pulse wave.html">Pulse Wave</a></li>
-                      <li><a href="./remove curse.html">Remove Curse</a></li>
-                      <li><a href="./revivify.html">Revivify</a></li>
-                      <li><a href="./sending.html">Sending</a></li>
-                      <li><a href="./sleet storm.html">Sleet Storm</a></li>
-                      <li><a href="./slow.html">Slow</a></li>
-                      <li><a href="./speak with dead.html">Speak With Dead</a></li>
-                      <li><a href="./speak with plants.html">Speak With Plants</a></li>
-                      <li><a href="./spirit guardians.html">Spirit Guardians</a></li>
-                      <li><a href="./spirit shroud.html">Spirit Shroud</a></li>
-                      <li><a href="./stinking cloud.html">Stinking Cloud</a></li>
-                      <li><a href="./summon fey.html">Summon Fey</a></li>
-                      <li><a href="./summon lesser demons.html">Summon Lesser Demons</a></li>
-                      <li><a href="./summon shadowspawn.html">Summon Shadowspawn</a></li>
-                      <li><a href="./summon undead.html">Summon Undead</a></li>
-                      <li><a href="./thunder step.html">Thunder Step</a></li>
-                      <li><a href="./tidal wave.html">Tidal Wave</a></li>
-                      <li><a href="./tiny servant.html">Tiny Servant</a></li>
-                      <li><a href="./tongues.html">Tongues</a></li>
-                      <li><a href="./vampiric touch.html">Vampiric Touch</a></li>
-                      <li><a href="./wall of sand.html">Wall Of Sand</a></li>
-                      <li><a href="./wall of water.html">Wall Of Water</a></li>
-                      <li><a href="./water breathing.html">Water Breathing</a></li>
-                      <li><a href="./water walk.html">Water Walk</a></li>
-                      <li><a href="./wind wall.html">Wind Wall</a></li>
-                  </ul>
-              <h2>4th Level</h2>
+            <li class="spell class-all school-all class-wizard school-necromancy"><a
+                href="./animate dead.html"
+              >Animate Dead</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./aura of vitality.html"
+              >Aura Of Vitality</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./beacon of hope.html"
+              >Beacon Of Hope</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./bestow curse.html"
+              >Bestow Curse</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./blinding smite.html"
+              >Blinding Smite</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./blink.html"
+              >Blink</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./call lightning.html"
+              >Call Lightning</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./catnap.html"
+              >Catnap</a></li>
+            <li class="spell class-all school-all school-divination"><a
+                href="./clairvoyance.html"
+              >Clairvoyance</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./conjure animals.html"
+              >Conjure Animals</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./conjure barrage.html"
+              >Conjure Barrage</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./counterspell.html"
+              >Counterspell</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./create food and water.html"
+              >Create Food And Water</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./crusader's mantle.html"
+              >Crusader'S Mantle</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./daylight.html"
+              >Daylight</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./dispel magic.html"
+              >Dispel Magic</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./elemental weapon.html"
+              >Elemental Weapon</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./enemies abound.html"
+              >Enemies Abound</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./erupting earth.html"
+              >Erupting Earth</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./fast friends.html"
+              >Fast Friends</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./fear.html"
+              >Fear</a></li>
+            <li class="spell class-all school-all school-necromancy ritual"><a
+                href="./feign death.html"
+              >Feign Death</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./fireball.html"
+              >Fireball</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./flame arrows.html"
+              >Flame Arrows</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./fly.html"
+              >Fly</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./gaseous form.html"
+              >Gaseous Form</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./glyph of warding.html"
+              >Glyph Of Warding</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./haste.html"
+              >Haste</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./hunger of hadar.html"
+              >Hunger Of Hadar</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./hypnotic pattern.html"
+              >Hypnotic Pattern</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./incite greed.html"
+              >Incite Greed</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./intellect fortress.html"
+              >Intellect Fortress</a></li>
+            <li class="spell class-all school-all school-evocation ritual"><a
+                href="./leomund's tiny hut.html"
+              >Leomund'S Tiny Hut</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./life transference.html"
+              >Life Transference</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./lightning arrow.html"
+              >Lightning Arrow</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./lightning bolt.html"
+              >Lightning Bolt</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./magic circle.html"
+              >Magic Circle</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./major image.html"
+              >Major Image</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./mass healing word.html"
+              >Mass Healing Word</a></li>
+            <li class="spell class-all school-all school-transmutation ritual"><a
+                href="./meld into stone.html"
+              >Meld Into Stone</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./melf's minute meteors.html"
+              >Melf'S Minute Meteors</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./motivational speech.html"
+              >Motivational Speech</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./nondetection.html"
+              >Nondetection</a></li>
+            <li class="spell class-all school-all school-illusion ritual"><a
+                href="./phantom steed.html"
+              >Phantom Steed</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./plant growth.html"
+              >Plant Growth</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./protection from energy.html"
+              >Protection From Energy</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./pulse wave.html"
+              >Pulse Wave</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./remove curse.html"
+              >Remove Curse</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./revivify.html"
+              >Revivify</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./sending.html"
+              >Sending</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./sleet storm.html"
+              >Sleet Storm</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./slow.html"
+              >Slow</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./speak with dead.html"
+              >Speak With Dead</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./speak with plants.html"
+              >Speak With Plants</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./spirit guardians.html"
+              >Spirit Guardians</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./spirit shroud.html"
+              >Spirit Shroud</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./stinking cloud.html"
+              >Stinking Cloud</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./summon fey.html"
+              >Summon Fey</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./summon lesser demons.html"
+              >Summon Lesser Demons</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./summon shadowspawn.html"
+              >Summon Shadowspawn</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./summon undead.html"
+              >Summon Undead</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./thunder step.html"
+              >Thunder Step</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./tidal wave.html"
+              >Tidal Wave</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./tiny servant.html"
+              >Tiny Servant</a></li>
+            <li class="spell class-all school-all school-divination"><a
+                href="./tongues.html"
+              >Tongues</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./vampiric touch.html"
+              >Vampiric Touch</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./wall of sand.html"
+              >Wall Of Sand</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./wall of water.html"
+              >Wall Of Water</a></li>
+            <li class="spell class-all school-all school-transmutation ritual"><a
+                href="./water breathing.html"
+              >Water Breathing</a></li>
+            <li class="spell class-all school-all school-transmutation ritual"><a
+                href="./water walk.html"
+              >Water Walk</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./wind wall.html"
+              >Wind Wall</a></li>
+        </ul>
+        <h2>4th Level</h2>
         <ul class="list-by-level">
-                      <li><a href="./arcane eye.html">Arcane Eye</a></li>
-                      <li><a href="./aura of life.html">Aura Of Life</a></li>
-                      <li><a href="./aura of purity.html">Aura Of Purity</a></li>
-                      <li><a href="./banishment.html">Banishment</a></li>
-                      <li><a href="./blight.html">Blight</a></li>
-                      <li><a href="./charm monster.html">Charm Monster</a></li>
-                      <li><a href="./compulsion.html">Compulsion</a></li>
-                      <li><a href="./confusion.html">Confusion</a></li>
-                      <li><a href="./conjure minor elementals.html">Conjure Minor Elementals</a></li>
-                      <li><a href="./conjure woodland beings.html">Conjure Woodland Beings</a></li>
-                      <li><a href="./control water.html">Control Water</a></li>
-                      <li><a href="./death ward.html">Death Ward</a></li>
-                      <li><a href="./dimension door.html">Dimension Door</a></li>
-                      <li><a href="./divination.html">Divination</a></li>
-                      <li><a href="./dominate beast.html">Dominate Beast</a></li>
-                      <li><a href="./elemental bane.html">Elemental Bane</a></li>
-                      <li><a href="./evard's black tentacles.html">Evard's Black Tentacles</a></li>
-                      <li><a href="./fabricate.html">Fabricate</a></li>
-                      <li><a href="./find greater steed.html">Find Greater Steed</a></li>
-                      <li><a href="./fire shield.html">Fire Shield</a></li>
-                      <li><a href="./freedom of movement.html">Freedom Of Movement</a></li>
-                      <li><a href="./giant insect.html">Giant Insect</a></li>
-                      <li><a href="./grasping vine.html">Grasping Vine</a></li>
-                      <li><a href="./gravity sinkhole.html">Gravity Sinkhole</a></li>
-                      <li><a href="./greater invisibility.html">Greater Invisibility</a></li>
-                      <li><a href="./guardian of faith.html">Guardian Of Faith</a></li>
-                      <li><a href="./guardian of nature.html">Guardian Of Nature</a></li>
-                      <li><a href="./hallucinatory terrain.html">Hallucinatory Terrain</a></li>
-                      <li><a href="./ice storm.html">Ice Storm</a></li>
-                      <li><a href="./leomund's secret chest.html">Leomund's Secret Chest</a></li>
-                      <li><a href="./locate creature.html">Locate Creature</a></li>
-                      <li><a href="./mordenkainen's faithful hound.html">Mordenkainen's Faithful Hound</a></li>
-                      <li><a href="./mordenkainen's private sanctum.html">Mordenkainen's Private Sanctum</a></li>
-                      <li><a href="./otiluke's resilient sphere.html">Otiluke's Resilient Sphere</a></li>
-                      <li><a href="./phantasmal killer.html">Phantasmal Killer</a></li>
-                      <li><a href="./polymorph.html">Polymorph</a></li>
-                      <li><a href="./shadow of moil.html">Shadow Of Moil</a></li>
-                      <li><a href="./sickening radiance.html">Sickening Radiance</a></li>
-                      <li><a href="./staggering smite.html">Staggering Smite</a></li>
-                      <li><a href="./stone shape.html">Stone Shape</a></li>
-                      <li><a href="./stoneskin.html">Stoneskin</a></li>
-                      <li><a href="./storm sphere.html">Storm Sphere</a></li>
-                      <li><a href="./summon aberration.html">Summon Aberration</a></li>
-                      <li><a href="./summon construct.html">Summon Construct</a></li>
-                      <li><a href="./summon elemental.html">Summon Elemental</a></li>
-                      <li><a href="./summon greater demon.html">Summon Greater Demon</a></li>
-                      <li><a href="./vitriolic sphere.html">Vitriolic Sphere</a></li>
-                      <li><a href="./wall of fire.html">Wall Of Fire</a></li>
-                      <li><a href="./watery sphere.html">Watery Sphere</a></li>
-                  </ul>
-              <h2>5th Level</h2>
+            <li class="spell class-all school-all school-divination"><a
+                href="./arcane eye.html"
+              >Arcane Eye</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./aura of life.html"
+              >Aura Of Life</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./aura of purity.html"
+              >Aura Of Purity</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./banishment.html"
+              >Banishment</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./blight.html"
+              >Blight</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./charm monster.html"
+              >Charm Monster</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./compulsion.html"
+              >Compulsion</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./confusion.html"
+              >Confusion</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./conjure minor elementals.html"
+              >Conjure Minor Elementals</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./conjure woodland beings.html"
+              >Conjure Woodland Beings</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./control water.html"
+              >Control Water</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./death ward.html"
+              >Death Ward</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./dimension door.html"
+              >Dimension Door</a></li>
+            <li class="spell class-all school-all school-divination ritual"><a
+                href="./divination.html"
+              >Divination</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./dominate beast.html"
+              >Dominate Beast</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./elemental bane.html"
+              >Elemental Bane</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./evard's black tentacles.html"
+              >Evard'S Black Tentacles</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./fabricate.html"
+              >Fabricate</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./find greater steed.html"
+              >Find Greater Steed</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./fire shield.html"
+              >Fire Shield</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./freedom of movement.html"
+              >Freedom Of Movement</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./giant insect.html"
+              >Giant Insect</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./grasping vine.html"
+              >Grasping Vine</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./gravity sinkhole.html"
+              >Gravity Sinkhole</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./greater invisibility.html"
+              >Greater Invisibility</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./guardian of faith.html"
+              >Guardian Of Faith</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./guardian of nature.html"
+              >Guardian Of Nature</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./hallucinatory terrain.html"
+              >Hallucinatory Terrain</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./ice storm.html"
+              >Ice Storm</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./leomund's secret chest.html"
+              >Leomund'S Secret Chest</a></li>
+            <li class="spell class-all school-all school-divination"><a
+                href="./locate creature.html"
+              >Locate Creature</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./mordenkainen's faithful hound.html"
+              >Mordenkainen'S Faithful Hound</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./mordenkainen's private sanctum.html"
+              >Mordenkainen'S Private Sanctum</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./otiluke's resilient sphere.html"
+              >Otiluke'S Resilient Sphere</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./phantasmal killer.html"
+              >Phantasmal Killer</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./polymorph.html"
+              >Polymorph</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./shadow of moil.html"
+              >Shadow Of Moil</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./sickening radiance.html"
+              >Sickening Radiance</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./staggering smite.html"
+              >Staggering Smite</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./stone shape.html"
+              >Stone Shape</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./stoneskin.html"
+              >Stoneskin</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./storm sphere.html"
+              >Storm Sphere</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./summon aberration.html"
+              >Summon Aberration</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./summon construct.html"
+              >Summon Construct</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./summon elemental.html"
+              >Summon Elemental</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./summon greater demon.html"
+              >Summon Greater Demon</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./vitriolic sphere.html"
+              >Vitriolic Sphere</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./wall of fire.html"
+              >Wall Of Fire</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./watery sphere.html"
+              >Watery Sphere</a></li>
+        </ul>
+        <h2>5th Level</h2>
         <ul class="list-by-level">
-                      <li><a href="./animate objects.html">Animate Objects</a></li>
-                      <li><a href="./antilife shell.html">Antilife Shell</a></li>
-                      <li><a href="./awaken.html">Awaken</a></li>
-                      <li><a href="./banishing smite.html">Banishing Smite</a></li>
-                      <li><a href="./bigby's hand.html">Bigby's Hand</a></li>
-                      <li><a href="./circle of power.html">Circle Of Power</a></li>
-                      <li><a href="./cloudkill.html">Cloudkill</a></li>
-                      <li><a href="./commune.html">Commune</a></li>
-                      <li><a href="./commune with nature.html">Commune With Nature</a></li>
-                      <li><a href="./cone of cold.html">Cone Of Cold</a></li>
-                      <li><a href="./conjure elemental.html">Conjure Elemental</a></li>
-                      <li><a href="./conjure volley.html">Conjure Volley</a></li>
-                      <li><a href="./contact other plane.html">Contact Other Plane</a></li>
-                      <li><a href="./contagion.html">Contagion</a></li>
-                      <li><a href="./control winds.html">Control Winds</a></li>
-                      <li><a href="./creation.html">Creation</a></li>
-                      <li><a href="./danse macabre.html">Danse Macabre</a></li>
-                      <li><a href="./dawn.html">Dawn</a></li>
-                      <li><a href="./destructive wave.html">Destructive Wave</a></li>
-                      <li><a href="./dispel evil and good.html">Dispel Evil And Good</a></li>
-                      <li><a href="./dominate person.html">Dominate Person</a></li>
-                      <li><a href="./dream.html">Dream</a></li>
-                      <li><a href="./enervation.html">Enervation</a></li>
-                      <li><a href="./far step.html">Far Step</a></li>
-                      <li><a href="./flame strike.html">Flame Strike</a></li>
-                      <li><a href="./geas.html">Geas</a></li>
-                      <li><a href="./greater restoration.html">Greater Restoration</a></li>
-                      <li><a href="./hallow.html">Hallow</a></li>
-                      <li><a href="./hold monster.html">Hold Monster</a></li>
-                      <li><a href="./holy weapon.html">Holy Weapon</a></li>
-                      <li><a href="./immolation.html">Immolation</a></li>
-                      <li><a href="./infernal calling.html">Infernal Calling</a></li>
-                      <li><a href="./insect plague.html">Insect Plague</a></li>
-                      <li><a href="./legend lore.html">Legend Lore</a></li>
-                      <li><a href="./maelstrom.html">Maelstrom</a></li>
-                      <li><a href="./mass cure wounds.html">Mass Cure Wounds</a></li>
-                      <li><a href="./mislead.html">Mislead</a></li>
-                      <li><a href="./modify memory.html">Modify Memory</a></li>
-                      <li><a href="./negative energy flood.html">Negative Energy Flood</a></li>
-                      <li><a href="./passwall.html">Passwall</a></li>
-                      <li><a href="./planar binding.html">Planar Binding</a></li>
-                      <li><a href="./raise dead.html">Raise Dead</a></li>
-                      <li><a href="./rary's telepathic bond.html">Rary's Telepathic Bond</a></li>
-                      <li><a href="./reincarnate.html">Reincarnate</a></li>
-                      <li><a href="./scrying.html">Scrying</a></li>
-                      <li><a href="./seeming.html">Seeming</a></li>
-                      <li><a href="./skill empowerment.html">Skill Empowerment</a></li>
-                      <li><a href="./steel wind strike.html">Steel Wind Strike</a></li>
-                      <li><a href="./summon celestial.html">Summon Celestial</a></li>
-                      <li><a href="./swift quiver.html">Swift Quiver</a></li>
-                      <li><a href="./synaptic static.html">Synaptic Static</a></li>
-                      <li><a href="./telekinesis.html">Telekinesis</a></li>
-                      <li><a href="./teleportation circle.html">Teleportation Circle</a></li>
-                      <li><a href="./temporal shunt.html">Temporal Shunt</a></li>
-                      <li><a href="./transmute rock.html">Transmute Rock</a></li>
-                      <li><a href="./tree stride.html">Tree Stride</a></li>
-                      <li><a href="./wall of force.html">Wall Of Force</a></li>
-                      <li><a href="./wall of light.html">Wall Of Light</a></li>
-                      <li><a href="./wall of stone.html">Wall Of Stone</a></li>
-                      <li><a href="./wrath of nature.html">Wrath Of Nature</a></li>
-                  </ul>
-              <h2>6th Level</h2>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./animate objects.html"
+              >Animate Objects</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./antilife shell.html"
+              >Antilife Shell</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./awaken.html"
+              >Awaken</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./banishing smite.html"
+              >Banishing Smite</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./bigby's hand.html"
+              >Bigby'S Hand</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./circle of power.html"
+              >Circle Of Power</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./cloudkill.html"
+              >Cloudkill</a></li>
+            <li class="spell class-all school-all school-divination ritual"><a
+                href="./commune.html"
+              >Commune</a></li>
+            <li class="spell class-all school-all school-divination ritual"><a
+                href="./commune with nature.html"
+              >Commune With Nature</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./cone of cold.html"
+              >Cone Of Cold</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./conjure elemental.html"
+              >Conjure Elemental</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./conjure volley.html"
+              >Conjure Volley</a></li>
+            <li class="spell class-all school-all school-divination ritual"><a
+                href="./contact other plane.html"
+              >Contact Other Plane</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./contagion.html"
+              >Contagion</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./control winds.html"
+              >Control Winds</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./creation.html"
+              >Creation</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./danse macabre.html"
+              >Danse Macabre</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./dawn.html"
+              >Dawn</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./destructive wave.html"
+              >Destructive Wave</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./dispel evil and good.html"
+              >Dispel Evil And Good</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./dominate person.html"
+              >Dominate Person</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./dream.html"
+              >Dream</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./enervation.html"
+              >Enervation</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./far step.html"
+              >Far Step</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./flame strike.html"
+              >Flame Strike</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./geas.html"
+              >Geas</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./greater restoration.html"
+              >Greater Restoration</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./hallow.html"
+              >Hallow</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./hold monster.html"
+              >Hold Monster</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./holy weapon.html"
+              >Holy Weapon</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./immolation.html"
+              >Immolation</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./infernal calling.html"
+              >Infernal Calling</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./insect plague.html"
+              >Insect Plague</a></li>
+            <li class="spell class-all school-all school-divination"><a
+                href="./legend lore.html"
+              >Legend Lore</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./maelstrom.html"
+              >Maelstrom</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./mass cure wounds.html"
+              >Mass Cure Wounds</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./mislead.html"
+              >Mislead</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./modify memory.html"
+              >Modify Memory</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./negative energy flood.html"
+              >Negative Energy Flood</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./passwall.html"
+              >Passwall</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./planar binding.html"
+              >Planar Binding</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./raise dead.html"
+              >Raise Dead</a></li>
+            <li class="spell class-all school-all school-divination ritual"><a
+                href="./rary's telepathic bond.html"
+              >Rary'S Telepathic Bond</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./reincarnate.html"
+              >Reincarnate</a></li>
+            <li class="spell class-all school-all school-divination"><a
+                href="./scrying.html"
+              >Scrying</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./seeming.html"
+              >Seeming</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./skill empowerment.html"
+              >Skill Empowerment</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./steel wind strike.html"
+              >Steel Wind Strike</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./summon celestial.html"
+              >Summon Celestial</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./swift quiver.html"
+              >Swift Quiver</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./synaptic static.html"
+              >Synaptic Static</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./telekinesis.html"
+              >Telekinesis</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./teleportation circle.html"
+              >Teleportation Circle</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./temporal shunt.html"
+              >Temporal Shunt</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./transmute rock.html"
+              >Transmute Rock</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./tree stride.html"
+              >Tree Stride</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./wall of force.html"
+              >Wall Of Force</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./wall of light.html"
+              >Wall Of Light</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./wall of stone.html"
+              >Wall Of Stone</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./wrath of nature.html"
+              >Wrath Of Nature</a></li>
+        </ul>
+        <h2>6th Level</h2>
         <ul class="list-by-level">
-                      <li><a href="./arcane gate.html">Arcane Gate</a></li>
-                      <li><a href="./blade barrier.html">Blade Barrier</a></li>
-                      <li><a href="./bones of the earth.html">Bones Of The Earth</a></li>
-                      <li><a href="./chain lightning.html">Chain Lightning</a></li>
-                      <li><a href="./circle of death.html">Circle Of Death</a></li>
-                      <li><a href="./conjure fey.html">Conjure Fey</a></li>
-                      <li><a href="./contingency.html">Contingency</a></li>
-                      <li><a href="./create homunculus.html">Create Homunculus</a></li>
-                      <li><a href="./create undead.html">Create Undead</a></li>
-                      <li><a href="./disintegrate.html">Disintegrate</a></li>
-                      <li><a href="./drawmij's instant summons.html">Drawmij's Instant Summons</a></li>
-                      <li><a href="./druid grove.html">Druid Grove</a></li>
-                      <li><a href="./eyebite.html">Eyebite</a></li>
-                      <li><a href="./find the path.html">Find The Path</a></li>
-                      <li><a href="./flesh to stone.html">Flesh To Stone</a></li>
-                      <li><a href="./forbiddance.html">Forbiddance</a></li>
-                      <li><a href="./globe of invulnerability.html">Globe Of Invulnerability</a></li>
-                      <li><a href="./gravity fissure.html">Gravity Fissure</a></li>
-                      <li><a href="./guards and wards.html">Guards And Wards</a></li>
-                      <li><a href="./harm.html">Harm</a></li>
-                      <li><a href="./heal.html">Heal</a></li>
-                      <li><a href="./heroes' feast.html">Heroes' Feast</a></li>
-                      <li><a href="./investiture of flame.html">Investiture Of Flame</a></li>
-                      <li><a href="./investiture of ice.html">Investiture Of Ice</a></li>
-                      <li><a href="./investiture of stone.html">Investiture Of Stone</a></li>
-                      <li><a href="./investiture of wind.html">Investiture Of Wind</a></li>
-                      <li><a href="./magic jar.html">Magic Jar</a></li>
-                      <li><a href="./mass suggestion.html">Mass Suggestion</a></li>
-                      <li><a href="./mental prison.html">Mental Prison</a></li>
-                      <li><a href="./move earth.html">Move Earth</a></li>
-                      <li><a href="./otiluke's freezing sphere.html">Otiluke's Freezing Sphere</a></li>
-                      <li><a href="./otto's irresistible dance.html">Otto's Irresistible Dance</a></li>
-                      <li><a href="./planar ally.html">Planar Ally</a></li>
-                      <li><a href="./primordial ward.html">Primordial Ward</a></li>
-                      <li><a href="./programmed illusion.html">Programmed Illusion</a></li>
-                      <li><a href="./scatter.html">Scatter</a></li>
-                      <li><a href="./soul cage.html">Soul Cage</a></li>
-                      <li><a href="./summon fiend.html">Summon Fiend</a></li>
-                      <li><a href="./sunbeam.html">Sunbeam</a></li>
-                      <li><a href="./tasha's otherworldly guise.html">Tasha's Otherworldly Guise</a></li>
-                      <li><a href="./tenser's transformation.html">Tenser's Transformation</a></li>
-                      <li><a href="./transport via plants.html">Transport Via Plants</a></li>
-                      <li><a href="./true seeing.html">True Seeing</a></li>
-                      <li><a href="./wall of ice.html">Wall Of Ice</a></li>
-                      <li><a href="./wall of thorns.html">Wall Of Thorns</a></li>
-                      <li><a href="./wind walk.html">Wind Walk</a></li>
-                      <li><a href="./word of recall.html">Word Of Recall</a></li>
-                  </ul>
-              <h2>7th Level</h2>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./arcane gate.html"
+              >Arcane Gate</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./blade barrier.html"
+              >Blade Barrier</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./bones of the earth.html"
+              >Bones Of The Earth</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./chain lightning.html"
+              >Chain Lightning</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./circle of death.html"
+              >Circle Of Death</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./conjure fey.html"
+              >Conjure Fey</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./contingency.html"
+              >Contingency</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./create homunculus.html"
+              >Create Homunculus</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./create undead.html"
+              >Create Undead</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./disintegrate.html"
+              >Disintegrate</a></li>
+            <li class="spell class-all school-all school-conjuration ritual"><a
+                href="./drawmij's instant summons.html"
+              >Drawmij'S Instant Summons</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./druid grove.html"
+              >Druid Grove</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./eyebite.html"
+              >Eyebite</a></li>
+            <li class="spell class-all school-all school-divination"><a
+                href="./find the path.html"
+              >Find The Path</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./flesh to stone.html"
+              >Flesh To Stone</a></li>
+            <li class="spell class-all school-all school-abjuration ritual"><a
+                href="./forbiddance.html"
+              >Forbiddance</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./globe of invulnerability.html"
+              >Globe Of Invulnerability</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./gravity fissure.html"
+              >Gravity Fissure</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./guards and wards.html"
+              >Guards And Wards</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./harm.html"
+              >Harm</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./heal.html"
+              >Heal</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./heroes' feast.html"
+              >Heroes' Feast</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./investiture of flame.html"
+              >Investiture Of Flame</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./investiture of ice.html"
+              >Investiture Of Ice</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./investiture of stone.html"
+              >Investiture Of Stone</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./investiture of wind.html"
+              >Investiture Of Wind</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./magic jar.html"
+              >Magic Jar</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./mass suggestion.html"
+              >Mass Suggestion</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./mental prison.html"
+              >Mental Prison</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./move earth.html"
+              >Move Earth</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./otiluke's freezing sphere.html"
+              >Otiluke'S Freezing Sphere</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./otto's irresistible dance.html"
+              >Otto'S Irresistible Dance</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./planar ally.html"
+              >Planar Ally</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./primordial ward.html"
+              >Primordial Ward</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./programmed illusion.html"
+              >Programmed Illusion</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./scatter.html"
+              >Scatter</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./soul cage.html"
+              >Soul Cage</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./summon fiend.html"
+              >Summon Fiend</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./sunbeam.html"
+              >Sunbeam</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./tasha's otherworldly guise.html"
+              >Tasha'S Otherworldly Guise</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./tenser's transformation.html"
+              >Tenser'S Transformation</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./transport via plants.html"
+              >Transport Via Plants</a></li>
+            <li class="spell class-all school-all school-divination"><a
+                href="./true seeing.html"
+              >True Seeing</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./wall of ice.html"
+              >Wall Of Ice</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./wall of thorns.html"
+              >Wall Of Thorns</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./wind walk.html"
+              >Wind Walk</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./word of recall.html"
+              >Word Of Recall</a></li>
+        </ul>
+        <h2>7th Level</h2>
         <ul class="list-by-level">
-                      <li><a href="./conjure celestial.html">Conjure Celestial</a></li>
-                      <li><a href="./create magen.html">Create Magen</a></li>
-                      <li><a href="./crown of stars.html">Crown Of Stars</a></li>
-                      <li><a href="./delayed blast fireball.html">Delayed Blast Fireball</a></li>
-                      <li><a href="./divine word.html">Divine Word</a></li>
-                      <li><a href="./dream of the blue veil.html">Dream Of The Blue Veil</a></li>
-                      <li><a href="./etherealness.html">Etherealness</a></li>
-                      <li><a href="./finger of death.html">Finger Of Death</a></li>
-                      <li><a href="./fire storm.html">Fire Storm</a></li>
-                      <li><a href="./forcecage.html">Forcecage</a></li>
-                      <li><a href="./mirage arcane.html">Mirage Arcane</a></li>
-                      <li><a href="./mordenkainen's magnificent mansion.html">Mordenkainen's Magnificent Mansion</a></li>
-                      <li><a href="./mordenkainen's sword.html">Mordenkainen's Sword</a></li>
-                      <li><a href="./plane shift.html">Plane Shift</a></li>
-                      <li><a href="./power word pain.html">Power Word Pain</a></li>
-                      <li><a href="./prismatic spray.html">Prismatic Spray</a></li>
-                      <li><a href="./project image.html">Project Image</a></li>
-                      <li><a href="./regenerate.html">Regenerate</a></li>
-                      <li><a href="./resurrection.html">Resurrection</a></li>
-                      <li><a href="./reverse gravity.html">Reverse Gravity</a></li>
-                      <li><a href="./sequester.html">Sequester</a></li>
-                      <li><a href="./simulacrum.html">Simulacrum</a></li>
-                      <li><a href="./symbol.html">Symbol</a></li>
-                      <li><a href="./teleport.html">Teleport</a></li>
-                      <li><a href="./temple of the gods.html">Temple Of The Gods</a></li>
-                      <li><a href="./tether essence.html">Tether Essence</a></li>
-                      <li><a href="./whirlwind.html">Whirlwind</a></li>
-                  </ul>
-              <h2>8th Level</h2>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./conjure celestial.html"
+              >Conjure Celestial</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./create magen.html"
+              >Create Magen</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./crown of stars.html"
+              >Crown Of Stars</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./delayed blast fireball.html"
+              >Delayed Blast Fireball</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./divine word.html"
+              >Divine Word</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./dream of the blue veil.html"
+              >Dream Of The Blue Veil</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./etherealness.html"
+              >Etherealness</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./finger of death.html"
+              >Finger Of Death</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./fire storm.html"
+              >Fire Storm</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./forcecage.html"
+              >Forcecage</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./mirage arcane.html"
+              >Mirage Arcane</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./mordenkainen's magnificent mansion.html"
+              >Mordenkainen'S Magnificent Mansion</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./mordenkainen's sword.html"
+              >Mordenkainen'S Sword</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./plane shift.html"
+              >Plane Shift</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./power word pain.html"
+              >Power Word Pain</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./prismatic spray.html"
+              >Prismatic Spray</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./project image.html"
+              >Project Image</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./regenerate.html"
+              >Regenerate</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./resurrection.html"
+              >Resurrection</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./reverse gravity.html"
+              >Reverse Gravity</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./sequester.html"
+              >Sequester</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./simulacrum.html"
+              >Simulacrum</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./symbol.html"
+              >Symbol</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./teleport.html"
+              >Teleport</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./temple of the gods.html"
+              >Temple Of The Gods</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./tether essence.html"
+              >Tether Essence</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./whirlwind.html"
+              >Whirlwind</a></li>
+        </ul>
+        <h2>8th Level</h2>
         <ul class="list-by-level">
-                      <li><a href="./abi-dalzim's horrid wilting.html">Abi-Dalzim's Horrid Wilting</a></li>
-                      <li><a href="./animal shapes.html">Animal Shapes</a></li>
-                      <li><a href="./antimagic field.html">Antimagic Field</a></li>
-                      <li><a href="./antipathy_sympathy.html">Antipathy/Sympathy</a></li>
-                      <li><a href="./clone.html">Clone</a></li>
-                      <li><a href="./control weather.html">Control Weather</a></li>
-                      <li><a href="./dark star.html">Dark Star</a></li>
-                      <li><a href="./demiplane.html">Demiplane</a></li>
-                      <li><a href="./dominate monster.html">Dominate Monster</a></li>
-                      <li><a href="./earthquake.html">Earthquake</a></li>
-                      <li><a href="./feeblemind.html">Feeblemind</a></li>
-                      <li><a href="./glibness.html">Glibness</a></li>
-                      <li><a href="./holy aura.html">Holy Aura</a></li>
-                      <li><a href="./illusory dragon.html">Illusory Dragon</a></li>
-                      <li><a href="./incendiary cloud.html">Incendiary Cloud</a></li>
-                      <li><a href="./maddening darkness.html">Maddening Darkness</a></li>
-                      <li><a href="./maze.html">Maze</a></li>
-                      <li><a href="./mighty fortress.html">Mighty Fortress</a></li>
-                      <li><a href="./mind blank.html">Mind Blank</a></li>
-                      <li><a href="./power word stun.html">Power Word Stun</a></li>
-                      <li><a href="./reality break.html">Reality Break</a></li>
-                      <li><a href="./sunburst.html">Sunburst</a></li>
-                      <li><a href="./telepathy.html">Telepathy</a></li>
-                      <li><a href="./tsunami.html">Tsunami</a></li>
-                  </ul>
-              <h2>9th Level</h2>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./abi-dalzim's horrid wilting.html"
+              >Abi-Dalzim'S Horrid Wilting</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./animal shapes.html"
+              >Animal Shapes</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./antimagic field.html"
+              >Antimagic Field</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./antipathy_sympathy.html"
+              >Antipathy/Sympathy</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./clone.html"
+              >Clone</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./control weather.html"
+              >Control Weather</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./dark star.html"
+              >Dark Star</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./demiplane.html"
+              >Demiplane</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./dominate monster.html"
+              >Dominate Monster</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./earthquake.html"
+              >Earthquake</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./feeblemind.html"
+              >Feeblemind</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./glibness.html"
+              >Glibness</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./holy aura.html"
+              >Holy Aura</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./illusory dragon.html"
+              >Illusory Dragon</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./incendiary cloud.html"
+              >Incendiary Cloud</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./maddening darkness.html"
+              >Maddening Darkness</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./maze.html"
+              >Maze</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./mighty fortress.html"
+              >Mighty Fortress</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./mind blank.html"
+              >Mind Blank</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./power word stun.html"
+              >Power Word Stun</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./reality break.html"
+              >Reality Break</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./sunburst.html"
+              >Sunburst</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./telepathy.html"
+              >Telepathy</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./tsunami.html"
+              >Tsunami</a></li>
+        </ul>
+        <h2>9th Level</h2>
         <ul class="list-by-level">
-                      <li><a href="./astral projection.html">Astral Projection</a></li>
-                      <li><a href="./blade of disaster.html">Blade Of Disaster</a></li>
-                      <li><a href="./foresight.html">Foresight</a></li>
-                      <li><a href="./gate.html">Gate</a></li>
-                      <li><a href="./imprisonment.html">Imprisonment</a></li>
-                      <li><a href="./invulnerability.html">Invulnerability</a></li>
-                      <li><a href="./mass heal.html">Mass Heal</a></li>
-                      <li><a href="./mass polymorph.html">Mass Polymorph</a></li>
-                      <li><a href="./meteor swarm.html">Meteor Swarm</a></li>
-                      <li><a href="./power word heal.html">Power Word Heal</a></li>
-                      <li><a href="./power word kill.html">Power Word Kill</a></li>
-                      <li><a href="./prismatic wall.html">Prismatic Wall</a></li>
-                      <li><a href="./psychic scream.html">Psychic Scream</a></li>
-                      <li><a href="./ravenous void.html">Ravenous Void</a></li>
-                      <li><a href="./shapechange.html">Shapechange</a></li>
-                      <li><a href="./storm of vengeance.html">Storm Of Vengeance</a></li>
-                      <li><a href="./time ravage.html">Time Ravage</a></li>
-                      <li><a href="./time stop.html">Time Stop</a></li>
-                      <li><a href="./true polymorph.html">True Polymorph</a></li>
-                      <li><a href="./true resurrection.html">True Resurrection</a></li>
-                      <li><a href="./weird.html">Weird</a></li>
-                      <li><a href="./wish.html">Wish</a></li>
-                  </ul>
-          </div>
-  </body>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./astral projection.html"
+              >Astral Projection</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./blade of disaster.html"
+              >Blade Of Disaster</a></li>
+            <li class="spell class-all school-all school-divination"><a
+                href="./foresight.html"
+              >Foresight</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./gate.html"
+              >Gate</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./imprisonment.html"
+              >Imprisonment</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./invulnerability.html"
+              >Invulnerability</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./mass heal.html"
+              >Mass Heal</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./mass polymorph.html"
+              >Mass Polymorph</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./meteor swarm.html"
+              >Meteor Swarm</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./power word heal.html"
+              >Power Word Heal</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./power word kill.html"
+              >Power Word Kill</a></li>
+            <li class="spell class-all school-all school-abjuration"><a
+                href="./prismatic wall.html"
+              >Prismatic Wall</a></li>
+            <li class="spell class-all school-all school-enchantment"><a
+                href="./psychic scream.html"
+              >Psychic Scream</a></li>
+            <li class="spell class-all school-all school-evocation"><a
+                href="./ravenous void.html"
+              >Ravenous Void</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./shapechange.html"
+              >Shapechange</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./storm of vengeance.html"
+              >Storm Of Vengeance</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./time ravage.html"
+              >Time Ravage</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./time stop.html"
+              >Time Stop</a></li>
+            <li class="spell class-all school-all school-transmutation"><a
+                href="./true polymorph.html"
+              >True Polymorph</a></li>
+            <li class="spell class-all school-all school-necromancy"><a
+                href="./true resurrection.html"
+              >True Resurrection</a></li>
+            <li class="spell class-all school-all school-illusion"><a
+                href="./weird.html"
+              >Weird</a></li>
+            <li class="spell class-all school-all school-conjuration"><a
+                href="./wish.html"
+              >Wish</a></li>
+        </ul>
+    </div>
 
+    <script>
+      (() => {
+    const head = document.getElementsByTagName("head")[0];
+    const style = head.appendChild(document.createElement("style"));
+
+    const editStyle = (classFilter, schoolFilter) => {
+        if (classFilter === "all" && schoolFilter === "all") {
+            style.innerHTML = `
+                .spell {
+                    display: list-item;
+                }
+            `
+        }
+        else if (classFilter === "all") {
+            style.innerHTML = `
+                .spell {
+                    display: none;
+                }
+                .spell.school-${schoolFilter} {
+                    display: list-item;
+                }
+            `
+        }
+        else if (schoolFilter === "all") {
+            style.innerHTML = `
+                .spell {
+                    display: none;
+                }
+                .spell.class-${classFilter} {
+                    display: list-item
+                }
+            `
+        }
+        else {
+            style.innerHTML = `
+                .spell {
+                    display: none;
+                }
+                .spell.class-${classFilter}.school-${schoolFilter} {
+                    display: list-item
+                }
+            `
+        }
+    }
+
+    editStyle("all", "all")
+
+    document.getElementById("filter").addEventListener("change", (event) => {
+        let form = event.target.closest("form")
+        let data = new FormData(form)
+        let classFilter = data.get("class-filter")
+        let schoolFilter = data.get("school-filter")
+        editStyle(classFilter, schoolFilter)
+    })
+})()
+    </script>
+  </body>
 </html>
