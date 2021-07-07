@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 class="title"><a
+        href="./index.html"
+      >Niebs Critical Collection</a></h1>
+    <div class="container">
+      <h1>Feats</h1>
+      <button id="open-all">Open All</button>
+      <button id="close-all">Close All</button>
+        <div class="feat">
+          <h2 class="feat-title">Actor</h2>
+          <div class="feat-contents" style="display: none;">
+          <p><ul class="markdown"><li class="markdown">Increases your Charisma by 1 to a maximum for 20</li><br><li class="markdown">You have an advantage on Charisma (Deception) and Charisma (Performance) checks when trying to pass yourself off as a different person, or mimic the sounds of another creature.</li><br><li class="markdown">If you take the Help action to aid an ally attacking a creature, you can do so from up to 30 feet away if the creature can hear or see you.</li><br><li class="markdown">You gain proficiency with Performance, disguise kits and weaver’s tools.</li></ul></p>
+          </div>
+        </div>
+        <div class="feat">
+          <h2 class="feat-title">Elven Accuracy</h2>
+          <div class="feat-contents" style="display: none;">
+            <p class="bold italic">Prerequisites:
+              Elf or Half Elf</p>
+          <p><ul class="markdown"><li class="markdown">Increase your Dexterity, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</li><br><li class="markdown">Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once.</li></ul></p>
+          </div>
+        </div>
+    </div>
+    <script>
+      (() => {
+    const flip = (element) => {
+        if (element.style.display === "none") {
+            element.style.display = ""
+        } else {
+            element.style.display = "none"
+        }
+    }
+
+    Array.from(document.getElementsByClassName("feat-title")).forEach(element => {
+        element.onclick = (event) => {
+            flip(element.parentElement.getElementsByClassName("feat-contents")[0])
+        }
+    })
+
+    document.getElementById("open-all").onclick = (e) => {
+        Array.from(document.getElementsByClassName("feat-contents")).forEach(x => x.style.display = "")
+    }
+
+    document.getElementById("close-all").onclick = (e) => {
+        Array.from(document.getElementsByClassName("feat-contents")).forEach(x => x.style.display = "none")
+    }
+})()
+    </script>
+  </body>
+</html>
