@@ -2,6 +2,9 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./style.css" />
+    <script>
+      navigator.serviceWorker.register('./sw.js');
+    </script>
   </head>
   <body>
     <h1 class="title">Niebs Critical Collection</h1>
@@ -9,8 +12,12 @@
       <a href="./spells/index.html"><h1>Spells</h1></a>
       <h1>Classes</h1>
       <ul>
-          <li><a href="./classes/rogue/index.html">Rogue</a></li>
-          <li><a href="./classes/wizard/index.html">Wizard</a></li>
+          <li><a
+              href="./classes/rogue/index.html"
+            >Rogue</a></li>
+          <li><a
+              href="./classes/wizard/index.html"
+            >Wizard</a></li>
       </ul>
     </div>
   </body>
