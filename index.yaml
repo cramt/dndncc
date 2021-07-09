@@ -7,3 +7,4 @@ static: static
 style: style.css
 schools: schools.yaml
 feats: feats.yaml
+races: races.yaml
