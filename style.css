@@ -58,15 +58,15 @@ h6 {
   text-align: center;
 }
 
-.bold {
+strong {
   font-family: bookmania-bold;
 }
 
-.italic {
+em {
   font-family: bookmania-italic;
 }
 
-.bold.italic {
+strong em {
   font-family: bookmania-bold-italic;
 }
 
