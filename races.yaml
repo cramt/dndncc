@@ -18,9 +18,9 @@ races:
     Trance: Elves do not sleep. Instead they meditate deeply, remaining semi-conscious, for 4 hours a day. The Common word for this meditation is "trance". While meditating, you dream after a fashion; such dreams are actually mental exercises that have become reflexive after years of practice. After resting in this way, you gain the same benefit a human would from 8 hours of sleep.
     Languages: You can speak, read, and write Common and Elven.
     subraces:
-      - name: Dark Elf
+      - name: dark elf
         Ability Score Increase: Your Charisma score increases by 1.
-        Drow Magic: You know the [[Dancing Lights=spells.dancing lights]] cantrip. When you reach 3rd level, you can cast [[Faerie Fire=spells.faerie fire]] once, and it recharges after a long rest. When you reach 5th level, you can cast [[Darkness=spells.darkness]] once, and it recharges after a long rest. Charisma is your spellcasting ability for these spells.
+        Drow Magic: You know the [Dancing Lights](spells.dancing%20lights) cantrip. When you reach 3rd level, you can cast [Faerie Fire](spells.faerie%20fire) once, and it recharges after a long rest. When you reach 5th level, you can cast [Darkness](spells.darkness) once, and it recharges after a long rest. Charisma is your spellcasting ability for these spells.
         Drow Weapon Training: You have proficiency with rapiers, shortswords, and hand crossbows.
         Keen Senses: You have proficiency in the Perception skill.
         Superior Darkvision: Your darkvision has a range of 120 feet, instead of 60.
