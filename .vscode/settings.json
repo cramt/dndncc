@@ -8,5 +8,6 @@
         "latex",
         "plaintext",
         "yaml"
-    ]
+    ],
+    "editor.acceptSuggestionOnEnter": "off"
 }
