@@ -58,55 +58,61 @@ subclasses:
     - 13
     - 17
 features:
-  - name: Spellcasting
-    body: As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power.
-    level: 1
-    sections:
-      - name: Cantrips
-        body: At 1st level, you know three cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Wizard table.
-      - name: Spellbook
-        body: |1
-          At 1st level, you have a spellbook containing six 1st-level wizard spells of your choice.
-          Your spellbook is the repository of the wizard spells you know, except your cantrips, which are fixed in your mind.
-          The spells that you add to your spellbook as you gain levels reflect the arcane research you conduct on your own, as well as intellectual breakthroughs you have had about the nature of the multiverse. You might find other spells during your adventures. You could discover a spell recorded on a scroll in an evil wizard's chest, for example, or in a dusty tome in an ancient library.
-
-        sections:
-          - name: Copying a Spell into the Book
-            body: |1
-              When you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is a spell that you can prepare and if you can spare the time to decipher and copy it.
-              Copying a spell into your spellbook involves reproducing the basic form of the spell, then deciphering the unique system of notation used by the wizard who wrote it. You must practice the spell until you understand the sounds or gestures required, then transcribe it into your spellbook using your own notation.
-              For each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.
-
-          - name: Replacing the Book
-            body: |1
-              You can copy a spell from your own spellbook into another book-for example, if you want to make a backup copy of your spellbook. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.
-              If you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal. For this reason, many wizards keep backup spellbooks in a safe place.
-
-          - name: The Book's Appearance
-            body: Your spellbook is a unique compilation of spells, with its own decorative flourishes and margin notes. It might be a plain, functional leather volume that you received as a gift from your master, a finely bound gilt-edged tome you found in an ancient library or even a loose collection of notes scrounged together after you lost your previous spellbook in a mishap.
-      - name: Preparing and Casting Spells
-        body: |1
-          The Wizard table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
-          You prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.
-          For example, if you're a 3rd-level wizard, you have four 1st-1evel and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your spellbook. If you prepare the 1st-level spell Magic Missile, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
-          You can change your list of prepared spells when you finish a long rest. Preparing a new list of wizard spells requires time spent studying your spellbook and memorizing the incantiations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list.
-
-      - name: Spellcasting Ability
-        body: |1
-          Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.
-          Spell save DC = 8 + your proficiency bonus + your Intelligence modifier
-          Spell attack modifier = your proficiency bonus + your Intelligence modifier
-
-      - name: Ritual Casting
-        body: You can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.
-
-      - name: Spellcasting Focus
-        body: You can use an arcane focus as a spellcasting focus for your wizard spells.
-
-      - name: Learning Spells of 1st Level and Higher
-        body: Each time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard table. On your adventures, you might find other spells that you can add to your spellbook.
-  - name: Arcane Recovery
+  - name: Expertise
     level: 1
     body: |1
-      You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.
-      For example, if you're a 4th-level wizard, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots.
+      At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.
+      At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit.
+  - name: Sneak Attack
+    level: 1
+    body: |1
+      Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.
+      You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.
+      The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.
+  - name: Thieves' Cant
+    level: 1
+    body: |1
+      During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.
+      In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.
+  - name: Cunning Action
+    level: 2
+    body: |1
+      Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.
+  - name: Steady Aim
+    level: 3
+    body: |1
+      At 3rd level, as a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn.
+  - name: Ability Score Improvement
+    level: 4
+    body: |1
+      When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+      Using the optional feats rule, you can forgo increasing your ability scores at a given level to take a feat of your choice instead.
+  - name: Uncanny Dodge
+    level: 5
+    body: |1
+      Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.
+  - name: Evasion
+    level: 7
+    body: |1
+      Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an Ice Storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
+  - name: Reliable Talent
+    level: 11
+    body: |1
+      By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.
+  - name: Blindsense
+    level: 14
+    body: |1
+      Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you.
+  - name: Slippery Mind
+    level: 15
+    body: |1
+      By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws.
+  - name: Elusive
+    level: 18
+    body: |1
+      Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated.
+  - name: Stroke of Luck
+    level: 20
+    body: |1
+      At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.
+      Once you use this feature, you can't use it again until you finish a short or long rest.
