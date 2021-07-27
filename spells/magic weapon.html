@@ -2,6 +2,9 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="../style.css" />
+    <script>
+      navigator.serviceWorker.register('../sw.js');
+    </script>
     <title>Magic Weapon</title>
   </head>
   <body>
@@ -35,12 +38,13 @@
         >Duration:</span>
         Concentration, Up To 1 Hour</p>
       <br />
-      <p id="spell-body">You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls.</p>
+      <p id="spell-body"><p>You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls.</p></p>
       <br />
         <p class="spell-higher-levels"><span class="bold">At Higher Levels.</span>
           At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the bonus increases to +2. When you use a spell slot of 6th level or higher, the bonus increases to +3.</p>
           <br>
       <p class="spell-lists"><span>Spell Lists:</span>
+          <a href="../classes/wizard.html">Wizard</a>
       </p>
     </div>
   </body>

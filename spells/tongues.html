@@ -2,6 +2,9 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="../style.css" />
+    <script>
+      navigator.serviceWorker.register('../sw.js');
+    </script>
     <title>Tongues</title>
   </head>
   <body>
@@ -35,9 +38,10 @@
         >Duration:</span>
         1 Hour</p>
       <br />
-      <p id="spell-body">This spell grants the creature you touch the ability to understand any spoken language it hears. Moreover, when the target speaks, any creature that knows at least one language and can hear the target understands what it says.</p>
+      <p id="spell-body"><p>This spell grants the creature you touch the ability to understand any spoken language it hears. Moreover, when the target speaks, any creature that knows at least one language and can hear the target understands what it says.</p></p>
       <br />
       <p class="spell-lists"><span>Spell Lists:</span>
+          <a href="../classes/wizard.html">Wizard</a>
       </p>
     </div>
   </body>

@@ -2,6 +2,9 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="../style.css" />
+    <script>
+      navigator.serviceWorker.register('../sw.js');
+    </script>
     <title>Flame Arrows</title>
   </head>
   <body>
@@ -35,12 +38,13 @@
         >Duration:</span>
         Concentration, Up To 1 Hour</p>
       <br />
-      <p id="spell-body">You touch a quiver containing arrows or bolts. When a target is hit by a ranged weapon attack using a piece of ammunition drawn from the quiver, the target takes an extra 1d6 fire damage. The spell's magic ends on a piece of ammunition when it hits or misses, and the spell ends when twelve pieces of ammunition have been drawn from the quiver.</p>
+      <p id="spell-body"><p>You touch a quiver containing arrows or bolts. When a target is hit by a ranged weapon attack using a piece of ammunition drawn from the quiver, the target takes an extra 1d6 fire damage. The spell's magic ends on a piece of ammunition when it hits or misses, and the spell ends when twelve pieces of ammunition have been drawn from the quiver.</p></p>
       <br />
         <p class="spell-higher-levels"><span class="bold">At Higher Levels.</span>
           At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the number of pieces of ammunition you can affect with this spell increases by two for each slot level above 3rd.</p>
           <br>
       <p class="spell-lists"><span>Spell Lists:</span>
+          <a href="../classes/wizard.html">Wizard</a>
       </p>
     </div>
   </body>

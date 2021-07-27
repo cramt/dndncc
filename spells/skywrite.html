@@ -2,6 +2,9 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="../style.css" />
+    <script>
+      navigator.serviceWorker.register('../sw.js');
+    </script>
     <title>Skywrite</title>
   </head>
   <body>
@@ -38,9 +41,10 @@
         >Duration:</span>
         Concentration, Up To 1 Hour</p>
       <br />
-      <p id="spell-body">You cause up to ten words to form in a part of the sky you can see. The words appear to be made of cloud and remain in place for the spell's duration. The words dissipate when the spell ends. A strong wind can disperse the clouds and end the spell early.</p>
+      <p id="spell-body"><p>You cause up to ten words to form in a part of the sky you can see. The words appear to be made of cloud and remain in place for the spell's duration. The words dissipate when the spell ends. A strong wind can disperse the clouds and end the spell early.</p></p>
       <br />
       <p class="spell-lists"><span>Spell Lists:</span>
+          <a href="../classes/wizard.html">Wizard</a>
       </p>
     </div>
   </body>

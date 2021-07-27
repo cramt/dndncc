@@ -2,6 +2,9 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="../style.css" />
+    <script>
+      navigator.serviceWorker.register('../sw.js');
+    </script>
     <title>Life Transference</title>
   </head>
   <body>
@@ -35,12 +38,13 @@
         >Duration:</span>
         Instantaneous</p>
       <br />
-      <p id="spell-body">You sacrifice some of your health to mend another creature's injuries. You take 4d8 necrotic damage, which can't be reduced in any way, and one creature of your choice that you can see within range regains a number of hit points equal to twice the necrotic damage you take.</p>
+      <p id="spell-body"><p>You sacrifice some of your health to mend another creature's injuries. You take 4d8 necrotic damage, which can't be reduced in any way, and one creature of your choice that you can see within range regains a number of hit points equal to twice the necrotic damage you take.</p></p>
       <br />
         <p class="spell-higher-levels"><span class="bold">At Higher Levels.</span>
           At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.</p>
           <br>
       <p class="spell-lists"><span>Spell Lists:</span>
+          <a href="../classes/wizard.html">Wizard</a>
       </p>
     </div>
   </body>

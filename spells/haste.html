@@ -2,6 +2,9 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="../style.css" />
+    <script>
+      navigator.serviceWorker.register('../sw.js');
+    </script>
     <title>Haste</title>
   </head>
   <body>
@@ -35,9 +38,10 @@
         >Duration:</span>
         Concentration, Up To 1 Minute</p>
       <br />
-      <p id="spell-body">Choose a willing creature that you can see within range. Until the spell ends, the target's speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.When the spell ends, the target can't move or take actions until after its next turn, as a wave of lethargy sweeps over it.</p>
+      <p id="spell-body"><p>Choose a willing creature that you can see within range. Until the spell ends, the target's speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.When the spell ends, the target can't move or take actions until after its next turn, as a wave of lethargy sweeps over it.</p></p>
       <br />
       <p class="spell-lists"><span>Spell Lists:</span>
+          <a href="../classes/wizard.html">Wizard</a>
       </p>
     </div>
   </body>

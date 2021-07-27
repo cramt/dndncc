@@ -2,6 +2,9 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="../style.css" />
+    <script>
+      navigator.serviceWorker.register('../sw.js');
+    </script>
     <title>Maze</title>
   </head>
   <body>
@@ -35,9 +38,10 @@
         >Duration:</span>
         Concentration, Up To 10 Minutes</p>
       <br />
-      <p id="spell-body">You banish a creature that you can see within range into a labyrinthine demiplane. The target remains there for the duration or until it escapes the maze.The target can use its action to attempt to escape. When it does so, it makes a DC 20 Intelligence check. If it succeeds, it escapes, and the spell ends (a minotaur or goristro demon automatically succeeds).When the spell ends, the target reappears in the space it left or, if that space is occupied, in the nearest unoccupied space.</p>
+      <p id="spell-body"><p>You banish a creature that you can see within range into a labyrinthine demiplane. The target remains there for the duration or until it escapes the maze.The target can use its action to attempt to escape. When it does so, it makes a DC 20 Intelligence check. If it succeeds, it escapes, and the spell ends (a minotaur or goristro demon automatically succeeds).When the spell ends, the target reappears in the space it left or, if that space is occupied, in the nearest unoccupied space.</p></p>
       <br />
       <p class="spell-lists"><span>Spell Lists:</span>
+          <a href="../classes/wizard.html">Wizard</a>
       </p>
     </div>
   </body>

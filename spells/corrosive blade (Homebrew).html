@@ -2,6 +2,9 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="../style.css" />
+    <script>
+      navigator.serviceWorker.register('../sw.js');
+    </script>
     <title>Corrosive Blade (Homebrew)</title>
   </head>
   <body>
@@ -35,12 +38,13 @@
         >Duration:</span>
         1 Round</p>
       <br />
-      <p id="spell-body">You brandish the weapon used in the spell’s casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack’s normal effects, and acid that lasts until the beginning of your next turn seeps from your weapon onto the target creature. The creature can use its action to remove the acid from itself, ending the spell. If the creature does not remove the acid, it takes acid damage equal to your spellcasting ability modifier at the end of its turn and the spell ends.</p>
+      <p id="spell-body"><p>You brandish the weapon used in the spell’s casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack’s normal effects, and acid that lasts until the beginning of your next turn seeps from your weapon onto the target creature. The creature can use its action to remove the acid from itself, ending the spell. If the creature does not remove the acid, it takes acid damage equal to your spellcasting ability modifier at the end of its turn and the spell ends.</p></p>
       <br />
         <p class="spell-higher-levels"><span class="bold">At Higher Levels.</span>
           At 5th level, the melee attack deals an extra 1d6 acid damage to the target on a hit, and the additional damage the target takes when not removing the acid increasess to 1d4 + your spellcasting ability modifier. Both damage rolls increase by 1d6 and 1d4 respectively at 11th level (2d6 and 2d4) and 17th level (3d6 and 3d4).</p>
           <br>
       <p class="spell-lists"><span>Spell Lists:</span>
+          <a href="../classes/wizard.html">Wizard</a>
       </p>
     </div>
   </body>
