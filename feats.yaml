@@ -1,9 +1,9 @@
 - name: actor
   body: |1
-    . Increases your Charisma by 1 to a maximum for 20
-    . You have an advantage on Charisma (Deception) and Charisma (Performance) checks when trying to pass yourself off as a different person, or mimic the sounds of another creature.
-    . If you take the Help action to aid an ally attacking a creature, you can do so from up to 30 feet away if the creature can hear or see you.
-    . You gain proficiency with Performance, disguise kits and weaver’s tools.
+    - Increases your Charisma by 1 to a maximum for 20
+    - You have an advantage on Charisma (Deception) and Charisma (Performance) checks when trying to pass yourself off as a different person, or mimic the sounds of another creature.
+    - If you take the Help action to aid an ally attacking a creature, you can do so from up to 30 feet away if the creature can hear or see you.
+    - You gain proficiency with Performance, disguise kits and weaver’s tools.
 - name: elven accuracy
   prerequisites:
     - or:
@@ -11,6 +11,6 @@
       - half elf
   flavor_text: The accuracy of elves is legendary, especially that of elf archers and spellcasters. You have uncanny aim with attacks that rely on precision rather than brute force
   body: |1
-    . Increase your Dexterity, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.
-    . Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once.
+    - Increase your Dexterity, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.
+    - Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once.
     
